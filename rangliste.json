@@ -1,6 +1,6 @@
 {
     "letztes_spiel": {
-        "spiel": "MAN03 vs. MAN06",
+        "spiel": "MAN04 vs. MAN07",
         "ergebnis": "1:0"
     },
     "spektakel": {
@@ -9,20 +9,28 @@
         "experten": "Sven Weil."
     },
     "differenz": {
-        "spiel": "MAN03 vs. MAN04",
-        "tipp": "9:7 (Ergebnis 1:1)",
-        "tipper": "Luis P."
+        "spiel": "MAN04 vs. MAN01",
+        "tipp": "34:31 (Ergebnis 4:2)",
+        "tipper": "Sven Weil."
     },
     "meist_richtig": "MAN01 vs. MAN02",
-    "wenigst_richtig": "MAN03 vs. MAN06",
+    "wenigst_richtig": "MAN04 vs. MAN02",
     "gesamt_tabelle": [
         {
             "name": "Sven Weil.",
-            "punkte": 8,
+            "punkte": 12,
             "exakt": 2,
             "differenz": 0,
-            "tendenz": 0,
+            "tendenz": 2,
             "platz": 1
+        },
+        {
+            "name": "Naoh Langmaack",
+            "punkte": 9,
+            "exakt": 0,
+            "differenz": 1,
+            "tendenz": 3,
+            "platz": 2
         },
         {
             "name": "Luis P.",
@@ -30,14 +38,6 @@
             "exakt": 0,
             "differenz": 1,
             "tendenz": 0,
-            "platz": 2
-        },
-        {
-            "name": "Naoh Langmaack",
-            "punkte": 2,
-            "exakt": 0,
-            "differenz": 0,
-            "tendenz": 1,
             "platz": 3
         },
         {
@@ -75,18 +75,18 @@
     ],
     "form_tabelle_letzte_7": [
         {
-            "name": "Sven Weil.",
-            "punkte": 8,
+            "name": "Naoh Langmaack",
+            "punkte": 7,
             "platz": 1
         },
         {
-            "name": "Luis P.",
-            "punkte": 3,
+            "name": "Sven Weil.",
+            "punkte": 4,
             "platz": 2
         },
         {
-            "name": "Naoh Langmaack",
-            "punkte": 2,
+            "name": "Luis P.",
+            "punkte": 0,
             "platz": 3
         },
         {
