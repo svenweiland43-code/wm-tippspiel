@@ -9,19 +9,19 @@
         "experten": "Sven Weil."
     },
     "differenz": {
-        "spiel": "MAN05 vs. MAN06",
-        "tipp": "1:1 (Ergebnis 42:2)",
-        "tipper": "Naoh Langmaack"
+        "spiel": "MAN01 vs. MAN03",
+        "tipp": "12:2 (Ergebnis 1:11)",
+        "tipper": "Sven Weil."
     },
     "meist_richtig": "MAN01 vs. MAN02 (1x exakt)",
     "wenigst_richtig": "MAN04 vs. MAN02 (2x komplett falsch)",
     "gesamt_tabelle": [
         {
             "name": "Sven Weil.",
-            "punkte": 10,
+            "punkte": 11,
             "exakt": 2,
-            "differenz": 0,
-            "tendenz": 1,
+            "differenz": 1,
+            "tendenz": 0,
             "platz": 1
         },
         {
@@ -81,7 +81,7 @@
         },
         {
             "name": "Sven Weil.",
-            "punkte": 2,
+            "punkte": 3,
             "platz": 2
         },
         {
