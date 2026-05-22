@@ -8,6 +8,13 @@
         "ergebnis": "3:1",
         "experten": "Sven Weil."
     },
+    "differenz": {
+        "spiel": "MAN03 vs. MAN04",
+        "tipp": "9:7 (Ergebnis 1:1)",
+        "tipper": "Luis P."
+    },
+    "meist_richtig": "MAN01 vs. MAN02",
+    "wenigst_richtig": "MAN03 vs. MAN06",
     "gesamt_tabelle": [
         {
             "name": "Sven Weil.",
