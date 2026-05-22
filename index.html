@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏆 WM-Tippspiel 2026</title>
+    <style>
+        :root {
+            --bg: #0f172a; 
+            --card-bg: #1e293b; 
+            --primary: #38bdf8; 
+            --secondary: #34d399; 
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --accent: #fbbf24; 
+            --danger: #ef4444;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        body { background-color: var(--bg); color: var(--text); padding: 16px; line-height: 1.5; }
+        .container { max-width: 680px; margin: 0 auto; }
+        
+        header { text-align: center; margin-bottom: 24px; padding: 24px; background: linear-gradient(135deg, #1e1b4b, #0f172a); border-radius: 16px; border: 1px solid var(--border); }
+        header h1 { font-size: 1.8rem; color: #fff; margin-bottom: 4px; }
+        header p { color: var(--primary); font-weight: bold; font-size: 0.9rem; letter-spacing: 1px; }
+
+        /* Die 3 Hauptbereiche untereinander */
+        .section-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); }
+        .section-card h2 { font-size: 1.3rem; margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; color: #fff; display: flex; align-items: center; gap: 8px; }
+        .section-card h3 { font-size: 1.05rem; color: var(--primary); margin: 16px 0 10px 0; }
+        .section-card h3:first-of-type { margin-top: 0; }
+
+        /* Tabellen */
+        .table-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 12px; }
+        table { width: 100%; border-collapse: collapse; text-align: left; min-width: 450px; }
+        th, td { padding: 10px 8px; border-bottom: 1px solid var(--border); }
+        th { color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        .rank-1 { background: rgba(251, 191, 36, 0.08); }
+        .rank-2 { background: rgba(241, 245, 249, 0.04); }
+        .rank-3 { background: rgba(217, 119, 6, 0.04); }
+        
+        .badge { display: inline-block; padding: 2px 6px; border-radius: 6px; font-size: 0.75rem; font-weight: bold; background: #0f172a; color: #fff; }
+        .points { font-size: 1.1rem; font-weight: bold; color: var(--secondary); text-align: right; }
+        
+        /* Highlight-Boxen */
+        .highlight-box { background: rgba(30, 41, 59, 0.5); border: 1px solid var(--border); padding: 14px; border-radius: 12px; margin-bottom: 14px; }
+        .highlight-box.gold { border-left: 4px solid var(--accent); background: rgba(251, 191, 36, 0.02); }
+        .highlight-box.red { border-left: 4px solid var(--danger); background: rgba(239, 68, 68, 0.02); }
+        .highlight-box.blue { border-left: 4px solid var(--primary); }
+        
+        .highlight-title { font-size: 0.8rem; text-transform: uppercase; color: var(--text-muted); font-weight: bold; margin-bottom: 4px; }
+        .gold .highlight-title { color: var(--accent); }
+        .red .highlight-title { color: var(--danger); }
+        
+        .highlight-value { font-size: 1.05rem; font-weight: bold; color: #fff; }
+        .highlight-sub { font-size: 0.85rem; color: var(--text-muted); margin-top: 4px; }
+
+        /* Unauffälliges letztes Spiel */
+        .subtle-box { font-size: 0.75rem; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 12px; margin-top: 16px; opacity: 0.5; }
+
+        /* Regeln & Listen */
+        .info-list { list-style: none; }
+        .info-list li { margin-bottom: 10px; padding-left: 20px; position: relative; }
+        .info-list li::before { content: "•"; color: var(--primary); font-weight: bold; position: absolute; left: 0; }
+        .alert-text { color: var(--accent); font-weight: bold; margin: 14px 0; padding: 10px; background: rgba(251, 191, 36, 0.05); border-radius: 8px; border-left: 3px solid var(--accent); font-size: 0.9rem; }
+        
+        a { color: var(--primary); text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        
+        .glueckwunsch { text-align: center; font-size: 1.2rem; font-weight: bold; color: #fff; margin-top: 24px; text-shadow: 0 0 10px rgba(56,189,248,0.3); }
+        
+        /* Footer & vergrößerter Support-Text */
+        footer { text-align: center; margin-top: 40px; padding: 20px 0; border-top: 1px solid var(--border); color: var(--text-muted); }
+        .footer-problem-text { font-size: 1.15rem; color: var(--text); font-weight: 500; margin-bottom: 8px; }
+        .footer-link-text { font-size: 0.85rem; }
+        
+        .loading { text-align: center; padding: 20px; color: var(--text-muted); font-style: italic; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🏆 Tippspiel-Zentrale Live</h1>
+        <p>WM 2026</p>
+    </header>
+
+    <div class="section-card">
+        <h2>📊 Aktueller Tabellenstand</h2>
+        
+        <h3>Gesamttabelle</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 50px;">Pl.</th>
+                        <th>Spieler</th>
+                        <th style="text-align: center; width: 50px;">4er</th>
+                        <th style="text-align: center; width: 50px;">3er</th>
+                        <th style="text-align: center; width: 50px;">2er</th>
+                        <th style="text-align: right; width: 80px;">Punkte</th>
+                    </tr>
+                </thead>
+                <tbody id="gesamt-body">
+                    <tr><td colspan="6" class="loading">Lade Daten aus der Cloud...</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 style="margin-top: 24px;">Form-Tabelle (Top 7 der letzten 7 Spiele)</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 60px;">Platz</th>
+                        <th>Spieler</th>
+                        <th style="text-align: right; width: 100px;">Punkte (Form)</th>
+                    </tr>
+                </thead>
+                <tbody id="form-body">
+                    <tr><td colspan="3" class="loading">Lade Formkurve...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="section-card">
+        <h2>🎯 Turnier-Highlights</h2>
+        
+        <div class="highlight-box gold">
+            <div class="highlight-title">🔥 Torreichstes Ergebnis getippt</div>
+            <div class="highlight-value" id="spektakel-game">Lade Ergebnis...</div>
+            <div class="highlight-sub" id="spektakel-user">Getippt von: --</div>
+        </div>
+
+        <div class="highlight-box red">
+            <div class="highlight-title">💥 Höchste Differenz zum eigentlichen Ergebnis</div>
+            <div class="highlight-value" id="diff-game">Lade Abweichung...</div>
+            <div class="highlight-sub" id="diff-user">Getippt von: --</div>
+        </div>
+
+        <div class="highlight-box blue">
+            <div class="highlight-title">📈 Am meisten richtig getippt</div>
+            <div class="highlight-value" id="meist-richtig-game">Lade Spiel...</div>
+        </div>
+
+        <div class="highlight-box blue">
+            <div class="highlight-title">📉 Am wenigsten richtig getippt</div>
+            <div class="highlight-value" id="wenigst-richtig-game">Lade Spiel...</div>
+        </div>
+
+        <div class="subtle-box">
+            <span>ℹ️ Zuletzt eingetragenes Ergebnis: </span>
+            <span id="last-match-text" style="color: var(--text-muted);">Lade Spiel...</span>
+        </div>
+    </div>
+
+    <div class="section-card">
+        <h2>📋 Regeln & Tippabgabe</h2>
+        
+        <h3>Die Punkteregelung:</h3>
+        <ul class="info-list">
+            <li><strong>4 Punkte:</strong> Exakter Tipp (z.B. Ergebnis endet 2:1, Tipp war 2:1)</li>
+            <li><strong>3 Punkte:</strong> Richtige Tordifferenz (z.B. Ergebnis 3:1, Tipp war 2:0)</li>
+            <li><strong>2 Punkte:</strong> Richtige Tendenz / Sieger (z.B. Ergebnis 1:0, Tipp war 3:0) oder richtiges Unentschieden bei falscher Toranzahl</li>
+        </ul>
+
+        <div class="alert-text">
+            ⚠️ Erinnerung: Vergiss nicht, deinen Tipp rechtzeitig vor dem Beginn des nächsten Spiels abzugeben, ansonsten ist er ungültig!
+        </div>
+
+        <p style="margin-top: 14px; font-size: 0.95rem;">
+            Sende deine Tipps bitte rechtzeitig an <strong>Noah Langmaack</strong> per WhatsApp oder direkt über folgendes Instagram-Konto: 
+            <br>
+            👉 <a href="https://www.instagram.com/noah_pl2577" target="_blank" rel="noopener noreferrer">@noah_pl2577</a>
+        </p>
+
+        <div class="glueckwunsch">
+            🍀 Viel Glück an alle Teilnehmer! 🍀
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-problem-text">Bei Fragen oder Problemen mit der Webseite wende dich an die technische Leitung:</p>
+        <p class="footer-link-text">📸 Instagram: <a href="https://www.instagram.com/sven08photography" target="_blank" rel="noopener noreferrer">@sven08photography</a></p>
+    </footer>
+</div>
+
+<script>
+    async function datenLaden() {
+        try {
+            const response = await fetch('./rangliste.json?v=' + new Date().getTime());
+            const daten = await response.json();
+            
+            // Highlights befüllen
+            document.getElementById('spektakel-game').innerText = `${daten.spektakel.spiel} (${daten.spektakel.ergebnis})`;
+            document.getElementById('spektakel-user').innerText = `Getippt von: ${daten.spektakel.experten}`;
+            
+            document.getElementById('diff-game').innerText = daten.differenz.spiel;
+            document.getElementById('diff-user').innerText = `Tipp war: ${daten.differenz.tipp} | Tipper: ${daten.differenz.tipper}`;
+            
+            document.getElementById('meist-richtig-game').innerText = daten.meist_richtig;
+            document.getElementById('wenigst-richtig-game').innerText = daten.wenigst_richtig;
+            
+            // Unauffälliges letztes Spiel
+            if(daten.letztes_spiel && daten.letztes_spiel.spiel) {
+                document.getElementById('last-match-text').innerText = `${daten.letztes_spiel.spiel} [${daten.letztes_spiel.ergebnis}]`;
+            } else {
+                document.getElementById('last-match-text').innerText = "Noch kein Spiel gewertet";
+            }
+
+            // Gesamttabelle
+            const gesamtBody = document.getElementById('gesamt-body');
+            gesamtBody.innerHTML = '';
+            daten.gesamt_tabelle.forEach(s => {
+                let rankClass = s.platz <= 3 ? `rank-${s.platz}` : '';
+                gesamtBody.innerHTML += `
+                    <tr class="${rankClass}">
+                        <td><strong>${s.platz}</strong></td>
+                        <td><strong>${s.name}</strong></td>
+                        <td style="text-align: center;"><span class="badge" style="color:#38bdf8;">${s.exakt}</span></td>
+                        <td style="text-align: center;"><span class="badge" style="color:#34d399;">${s.differenz}</span></td>
+                        <td style="text-align: center;"><span class="badge" style="color:#fbbf24;">${s.tendenz}</span></td>
+                        <td class="points">${s.punkte}</td>
+                    </tr>
+                `;
+            });
+
+            // Formtabelle (Streng limitiert auf die ersten 7 Einträge)
+            const formBody = document.getElementById('form-body');
+            formBody.innerHTML = '';
+            daten.form_tabelle_letzte_7.slice(0, 7).forEach(s => {
+                let rankClass = s.platz == 1 ? 'rank-1' : '';
+                formBody.innerHTML += `
+                    <tr class="${rankClass}">
+                        <td><strong>${s.platz}.</strong></td>
+                        <td><strong>${s.name}</strong></td>
+                        <td class="points" style="color:#38bdf8;">${s.punkte}</td>
+                    </tr>
+                `;
+            });
+
+        } catch (error) {
+            console.error("Fehler:", error);
+            document.getElementById('gesamt-body').innerHTML = '<tr><td colspan="6" style="color:#ef4444; text-align:center; padding:20px;">Daten konnten nicht geladen werden. Was abgespeichert?</td></tr>';
+        }
+    }
+
+    datenLaden();
+</script>
+</body>
+</html>
