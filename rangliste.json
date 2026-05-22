@@ -1,4 +1,13 @@
 {
+    "letztes_spiel": {
+        "spiel": "MAN03 vs. MAN06",
+        "ergebnis": "1:0"
+    },
+    "spektakel": {
+        "spiel": "MAN01 vs. MAN02",
+        "ergebnis": "3:1",
+        "experten": "Sven Weil."
+    },
     "gesamt_tabelle": [
         {
             "name": "Sven Weil.",
