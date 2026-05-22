@@ -9,19 +9,19 @@
         "experten": "Sven Weil."
     },
     "differenz": {
-        "spiel": "MAN04 vs. MAN01",
-        "tipp": "34:31 (Ergebnis 4:2)",
-        "tipper": "Sven Weil."
+        "spiel": "MAN05 vs. MAN06",
+        "tipp": "1:1 (Ergebnis 42:2)",
+        "tipper": "Naoh Langmaack"
     },
     "meist_richtig": "MAN01 vs. MAN02",
     "wenigst_richtig": "MAN04 vs. MAN02",
     "gesamt_tabelle": [
         {
             "name": "Sven Weil.",
-            "punkte": 12,
+            "punkte": 10,
             "exakt": 2,
             "differenz": 0,
-            "tendenz": 2,
+            "tendenz": 1,
             "platz": 1
         },
         {
@@ -41,15 +41,15 @@
             "platz": 3
         },
         {
-            "name": "User 4",
-            "punkte": 0,
+            "name": "Herr Schäfer",
+            "punkte": 2,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 0,
+            "tendenz": 1,
             "platz": 4
         },
         {
-            "name": "User 5",
+            "name": "Mika Lorenz",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -57,7 +57,7 @@
             "platz": 5
         },
         {
-            "name": "User 6",
+            "name": "Felix",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -81,7 +81,7 @@
         },
         {
             "name": "Sven Weil.",
-            "punkte": 4,
+            "punkte": 2,
             "platz": 2
         },
         {
@@ -90,17 +90,17 @@
             "platz": 3
         },
         {
-            "name": "User 4",
+            "name": "Herr Schäfer",
             "punkte": 0,
             "platz": 4
         },
         {
-            "name": "User 5",
+            "name": "Mika Lorenz",
             "punkte": 0,
             "platz": 5
         },
         {
-            "name": "User 6",
+            "name": "Felix",
             "punkte": 0,
             "platz": 6
         },
