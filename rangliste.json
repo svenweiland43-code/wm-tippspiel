@@ -1,0 +1,97 @@
+{
+    "gesamt_tabelle": [
+        {
+            "name": "Sven Weil.",
+            "punkte": 8,
+            "exakt": 2,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 1
+        },
+        {
+            "name": "Luis P.",
+            "punkte": 3,
+            "exakt": 0,
+            "differenz": 1,
+            "tendenz": 0,
+            "platz": 2
+        },
+        {
+            "name": "Naoh Langmaack",
+            "punkte": 2,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 1,
+            "platz": 3
+        },
+        {
+            "name": "User 4",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 4
+        },
+        {
+            "name": "User 5",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 5
+        },
+        {
+            "name": "User 6",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 6
+        },
+        {
+            "name": "Tim Bredlau",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 7
+        }
+    ],
+    "form_tabelle_letzte_7": [
+        {
+            "name": "Sven Weil.",
+            "punkte": 8,
+            "platz": 1
+        },
+        {
+            "name": "Luis P.",
+            "punkte": 3,
+            "platz": 2
+        },
+        {
+            "name": "Naoh Langmaack",
+            "punkte": 2,
+            "platz": 3
+        },
+        {
+            "name": "User 4",
+            "punkte": 0,
+            "platz": 4
+        },
+        {
+            "name": "User 5",
+            "punkte": 0,
+            "platz": 5
+        },
+        {
+            "name": "User 6",
+            "punkte": 0,
+            "platz": 6
+        },
+        {
+            "name": "Tim Bredlau",
+            "punkte": 0,
+            "platz": 7
+        }
+    ]
+}
