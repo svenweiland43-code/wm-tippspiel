@@ -31,11 +31,15 @@
         .section-card h3 { font-size: 1.05rem; color: var(--primary); margin: 16px 0 10px 0; }
         .section-card h3:first-of-type { margin-top: 0; }
 
-        /* Tabellen */
+        /* Tabellen & Handy-Optimierung */
         .table-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 12px; }
-        table { width: 100%; border-collapse: collapse; text-align: left; min-width: 450px; }
+        table { width: 100%; border-collapse: collapse; text-align: left; }
         th, td { padding: 10px 8px; border-bottom: 1px solid var(--border); }
         th { color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        /* Die große Tabelle darf scrollen, die kleine Form-Tabelle passt komplett aufs Display */
+        .table-gesamt { min-width: 460px; }
+        .table-form { min-width: 100%; }
         
         .rank-1 { background: rgba(251, 191, 36, 0.08); }
         .rank-2 { background: rgba(241, 245, 249, 0.04); }
@@ -83,24 +87,25 @@
 
 <div class="container">
     <header>
-        <h1>🏆Noah´S Fußball Tippspiel Live</h1>
+        <h1>🏆 Noah´s Fußball Tippspiel Live</h1>
         <p>WM 2026</p>
     </header>
 
+    <!-- BEREICH 1: DIE RANGLISTEN -->
     <div class="section-card">
         <h2>📊 Aktueller Tabellenstand</h2>
         
         <h3>Gesamttabelle</h3>
         <div class="table-wrapper">
-            <table>
+            <table class="table-gesamt">
                 <thead>
                     <tr>
-                        <th style="width: 50px;">Pl.</th>
+                        <th style="width: 45px;">Pl.</th>
                         <th>Spieler</th>
-                        <th style="text-align: center; width: 50px;">4er</th>
-                        <th style="text-align: center; width: 50px;">3er</th>
-                        <th style="text-align: center; width: 50px;">2er</th>
-                        <th style="text-align: right; width: 80px;">Punkte</th>
+                        <th style="text-align: right; width: 80px; padding-right: 15px;">Punkte</th>
+                        <th style="text-align: center; width: 45px;">4er</th>
+                        <th style="text-align: center; width: 45px;">3er</th>
+                        <th style="text-align: center; width: 45px;">2er</th>
                     </tr>
                 </thead>
                 <tbody id="gesamt-body">
@@ -111,12 +116,12 @@
 
         <h3 style="margin-top: 24px;">Letzten 7 Spiele</h3>
         <div class="table-wrapper">
-            <table>
+            <table class="table-form">
                 <thead>
                     <tr>
-                        <th style="width: 60px;">Platz</th>
+                        <th style="width: 55px;">Platz</th>
                         <th>Spieler</th>
-                        <th style="text-align: right; width: 100px;">Punkte (Form)</th>
+                        <th style="text-align: right; width: 90px;">Punkte</th>
                     </tr>
                 </thead>
                 <tbody id="form-body">
@@ -126,6 +131,7 @@
         </div>
     </div>
 
+    <!-- BEREICH 2: TURNIER-HIGHLIGHTS -->
     <div class="section-card">
         <h2>🎯 Turnier-Highlights</h2>
         
@@ -157,6 +163,7 @@
         </div>
     </div>
 
+    <!-- BEREICH 3: REGELN & TIPPABGABE -->
     <div class="section-card">
         <h2>📋 Regeln & Tippabgabe</h2>
         
@@ -195,7 +202,7 @@
             const daten = await response.json();
             
             // Highlights befüllen
-            document.getElementById('spektakel-game').innerText = `${daten.spektakel.spiel} (${daten.spektakel.ergebnis})`;
+            document.getElementById('spektakel-game').innerText = daten.spektakel.spiel ? `${daten.spektakel.spiel} (${daten.spektakel.ergebnis})` : "Noch kein Treffer";
             document.getElementById('spektakel-user').innerText = `Getippt von: ${daten.spektakel.experten}`;
             
             document.getElementById('diff-game').innerText = daten.differenz.spiel;
@@ -211,7 +218,7 @@
                 document.getElementById('last-match-text').innerText = "Noch kein Spiel gewertet";
             }
 
-            // Gesamttabelle
+            // Gesamttabelle (Punkte vor die Aufteilung gezogen)
             const gesamtBody = document.getElementById('gesamt-body');
             gesamtBody.innerHTML = '';
             daten.gesamt_tabelle.forEach(s => {
@@ -220,15 +227,15 @@
                     <tr class="${rankClass}">
                         <td><strong>${s.platz}</strong></td>
                         <td><strong>${s.name}</strong></td>
+                        <td class="points" style="text-align: right; padding-right: 15px;">${s.punkte}</td>
                         <td style="text-align: center;"><span class="badge" style="color:#38bdf8;">${s.exakt}</span></td>
                         <td style="text-align: center;"><span class="badge" style="color:#34d399;">${s.differenz}</span></td>
                         <td style="text-align: center;"><span class="badge" style="color:#fbbf24;">${s.tendenz}</span></td>
-                        <td class="points">${s.punkte}</td>
                     </tr>
                 `;
             });
 
-            // Formtabelle (Streng limitiert auf die ersten 7 Einträge)
+            // Formtabelle (Rechtsbündig ohne Scrollen)
             const formBody = document.getElementById('form-body');
             formBody.innerHTML = '';
             daten.form_tabelle_letzte_7.slice(0, 7).forEach(s => {
