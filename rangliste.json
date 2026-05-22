@@ -1,20 +1,20 @@
 {
     "letztes_spiel": {
-        "spiel": "MAN04 vs. MAN07",
+        "spiel": "Tschechien vs. Katar",
         "ergebnis": "1:0"
     },
     "spektakel": {
-        "spiel": "MAN01 vs. MAN02",
+        "spiel": "Mexiko vs. Südafrika",
         "ergebnis": "3:1",
         "experten": "Sven Weil."
     },
     "differenz": {
-        "spiel": "MAN01 vs. MAN03",
+        "spiel": "Mexiko vs. Südkorea",
         "tipp": "12:2 (Ergebnis 1:11)",
         "tipper": "Sven Weil."
     },
-    "meist_richtig": "MAN01 vs. MAN02 (1x exakt)",
-    "wenigst_richtig": "MAN04 vs. MAN02 (2x komplett falsch)",
+    "meist_richtig": "Mexiko vs. Südafrika (1x exakt)",
+    "wenigst_richtig": "Tschechien vs. Südafrika (2x komplett falsch)",
     "gesamt_tabelle": [
         {
             "name": "Sven Weil.",
