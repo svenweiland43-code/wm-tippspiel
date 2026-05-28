@@ -33,19 +33,19 @@
             "platz": 2
         },
         {
-            "name": "Luis Pfeiffer",
-            "punkte": 3,
-            "exakt": 0,
-            "differenz": 1,
-            "tendenz": 0,
-            "platz": 3
-        },
-        {
             "name": "Herr Schäfer",
             "punkte": 2,
             "exakt": 0,
             "differenz": 0,
             "tendenz": 1,
+            "platz": 3
+        },
+        {
+            "name": "Luis Pfeiffer",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 4
         },
         {
