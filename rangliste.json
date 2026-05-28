@@ -71,6 +71,94 @@
             "differenz": 0,
             "tendenz": 0,
             "platz": 7
+        },
+        {
+            "name": "8",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 8
+        },
+        {
+            "name": "9",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 9
+        },
+        {
+            "name": "10",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 10
+        },
+        {
+            "name": "11",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 11
+        },
+        {
+            "name": "12",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 12
+        },
+        {
+            "name": "13",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 13
+        },
+        {
+            "name": "14",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 14
+        },
+        {
+            "name": "15",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 15
+        },
+        {
+            "name": "16",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 16
+        },
+        {
+            "name": "17",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 17
+        },
+        {
+            "name": "18",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 18
         }
     ],
     "form_tabelle_letzte_7": [
@@ -108,6 +196,61 @@
             "name": "Tim Bredlau",
             "punkte": 0,
             "platz": 7
+        },
+        {
+            "name": "8",
+            "punkte": 0,
+            "platz": 8
+        },
+        {
+            "name": "9",
+            "punkte": 0,
+            "platz": 9
+        },
+        {
+            "name": "10",
+            "punkte": 0,
+            "platz": 10
+        },
+        {
+            "name": "11",
+            "punkte": 0,
+            "platz": 11
+        },
+        {
+            "name": "12",
+            "punkte": 0,
+            "platz": 12
+        },
+        {
+            "name": "13",
+            "punkte": 0,
+            "platz": 13
+        },
+        {
+            "name": "14",
+            "punkte": 0,
+            "platz": 14
+        },
+        {
+            "name": "15",
+            "punkte": 0,
+            "platz": 15
+        },
+        {
+            "name": "16",
+            "punkte": 0,
+            "platz": 16
+        },
+        {
+            "name": "17",
+            "punkte": 0,
+            "platz": 17
+        },
+        {
+            "name": "18",
+            "punkte": 0,
+            "platz": 18
         }
     ]
 }
