@@ -1,7 +1,7 @@
 {
     "letztes_spiel": {
-        "spiel": "Tschechien vs. Kanada",
-        "ergebnis": "1:0"
+        "spiel": "Kanada vs. Katar",
+        "ergebnis": "0:5"
     },
     "spektakel": {
         "spiel": "Mexiko vs. Südafrika",
@@ -164,7 +164,7 @@
     "form_tabelle_letzte_7": [
         {
             "name": "Noah Langmaack",
-            "punkte": 5,
+            "punkte": 7,
             "platz": 1
         },
         {
