@@ -1,47 +1,47 @@
 {
     "letztes_spiel": {
-        "spiel": "Kanada vs. Katar",
-        "ergebnis": "0:5"
+        "spiel": "Noch kein Spiel beendet",
+        "ergebnis": ""
     },
     "spektakel": {
-        "spiel": "Mexiko vs. Südafrika",
-        "ergebnis": "3:1",
-        "experten": "Sven Weiland"
+        "spiel": "Noch kein Treffer",
+        "ergebnis": "-:-",
+        "experten": "Niemand"
     },
     "differenz": {
-        "spiel": "Mexiko vs. Südkorea",
-        "tipp": "12:2 (Ergebnis 1:11)",
-        "tipper": "Sven Weiland"
+        "spiel": "Noch kein Tipp",
+        "tipp": "-:-",
+        "tipper": "Niemand"
     },
-    "meist_richtig": "Mexiko vs. Südafrika (1x exakt)",
-    "wenigst_richtig": "Tschechien vs. Südafrika (2x komplett falsch)",
+    "meist_richtig": "Noch kein Spiel gewertet",
+    "wenigst_richtig": "Noch kein Spiel gewertet",
     "gesamt_tabelle": [
         {
-            "name": "Sven Weiland",
-            "punkte": 11,
-            "exakt": 2,
-            "differenz": 1,
+            "name": "Noah Langmaack",
+            "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
             "tendenz": 0,
             "platz": 1
         },
         {
-            "name": "Noah Langmaack",
-            "punkte": 9,
+            "name": "Sven Weiland",
+            "punkte": 0,
             "exakt": 0,
-            "differenz": 1,
-            "tendenz": 3,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 2
         },
         {
-            "name": "Herr Schäfer",
-            "punkte": 2,
+            "name": "Luis Pfeiffer",
+            "punkte": 0,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 1,
+            "tendenz": 0,
             "platz": 3
         },
         {
-            "name": "Luis Pfeiffer",
+            "name": "Herr Schäfer",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -164,12 +164,12 @@
     "form_tabelle_letzte_7": [
         {
             "name": "Noah Langmaack",
-            "punkte": 7,
+            "punkte": 0,
             "platz": 1
         },
         {
             "name": "Sven Weiland",
-            "punkte": 3,
+            "punkte": 0,
             "platz": 2
         },
         {
