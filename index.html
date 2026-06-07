@@ -91,9 +91,12 @@
         <p>WM 2026</p>
     </header>
 
-    <!-- BEREICH 1: DIE RANGLISTEN -->
     <div class="section-card">
         <h2>📊 Aktueller Tabellenstand</h2>
+        
+        <div id="mitteilungs-box" style="display: none; background: rgba(251, 191, 36, 0.06); color: var(--accent); border: 1px solid rgba(251, 191, 36, 0.3); padding: 15px; margin: 15px 0; border-radius: 12px; font-weight: bold; text-align: center; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); border-left: 4px solid var(--accent);">
+            📢 <span id="mitteilungs-text"></span>
+        </div>
         
         <h3>Gesamttabelle</h3>
         <div class="table-wrapper">
@@ -131,7 +134,6 @@
         </div>
     </div>
 
-    <!-- BEREICH 2: TURNIER-HIGHLIGHTS -->
     <div class="section-card">
         <h2>🎯 Turnier-Highlights</h2>
         
@@ -163,7 +165,6 @@
         </div>
     </div>
 
-    <!-- BEREICH 3: REGELN & TIPPABGABE -->
     <div class="section-card">
         <h2>📋 Regeln & Tippabgabe</h2>
         
@@ -196,6 +197,26 @@
 </div>
 
 <script>
+    // HIER EINGEFÜGT: Funktion zum Laden der Admin-Notizen
+    async function ladeMitteilungen() {
+        try {
+            const response = await fetch('./notizen.json?t=' + new Date().getTime());
+            const data = await response.json();
+            const box = document.getElementById('mitteilungs-box');
+            const textSpan = document.getElementById('mitteilungs-text');
+            
+            if (data && data.nachricht && data.nachricht.trim() !== "") {
+                textSpan.innerText = data.nachricht;
+                box.style.display = 'block'; // Anzeigen
+            } else {
+                box.style.display = 'none';  // Verstecken, wenn leer
+            }
+        } catch (error) {
+            // Falls die Datei notizen.json noch nicht existiert oder leer ist, einfach ausblenden
+            document.getElementById('mitteilungs-box').style.display = 'none';
+        }
+    }
+
     async function datenLaden() {
         try {
             const response = await fetch('./rangliste.json?v=' + new Date().getTime());
@@ -255,6 +276,8 @@
         }
     }
 
+    // Beide Funktionen beim Laden ausführen
+    ladeMitteilungen();
     datenLaden();
 </script>
 </body>
