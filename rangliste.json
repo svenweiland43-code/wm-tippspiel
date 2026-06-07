@@ -1,43 +1,43 @@
 {
     "letztes_spiel": {
-        "spiel": "Noch kein Spiel beendet",
-        "ergebnis": ""
+        "spiel": "Mexiko vs. Südafrika",
+        "ergebnis": "1:1"
     },
     "spektakel": {
-        "spiel": "Noch kein Treffer",
-        "ergebnis": "-:-",
-        "experten": "Niemand"
+        "spiel": "Mexiko vs. Südafrika",
+        "ergebnis": "1:1",
+        "experten": "Noah Langmaack, Sven Weiland"
     },
     "differenz": {
-        "spiel": "Noch kein Tipp",
-        "tipp": "-:-",
-        "tipper": "Niemand"
+        "spiel": "Mexiko vs. Südafrika",
+        "tipp": "2:2 (Ergebnis 1:1)",
+        "tipper": "Luis Pfeiffer"
     },
-    "meist_richtig": "Noch kein Spiel gewertet",
-    "wenigst_richtig": "Noch kein Spiel gewertet",
+    "meist_richtig": "Mexiko vs. Südafrika (2x exakt)",
+    "wenigst_richtig": "Mexiko vs. Südafrika (0x komplett falsch)",
     "gesamt_tabelle": [
         {
             "name": "Noah Langmaack",
-            "punkte": 0,
-            "exakt": 0,
+            "punkte": 4,
+            "exakt": 1,
             "differenz": 0,
             "tendenz": 0,
             "platz": 1
         },
         {
             "name": "Sven Weiland",
-            "punkte": 0,
-            "exakt": 0,
+            "punkte": 4,
+            "exakt": 1,
             "differenz": 0,
             "tendenz": 0,
             "platz": 2
         },
         {
             "name": "Luis Pfeiffer",
-            "punkte": 0,
+            "punkte": 2,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 0,
+            "tendenz": 1,
             "platz": 3
         },
         {
@@ -164,17 +164,17 @@
     "form_tabelle_letzte_7": [
         {
             "name": "Noah Langmaack",
-            "punkte": 0,
+            "punkte": 4,
             "platz": 1
         },
         {
             "name": "Sven Weiland",
-            "punkte": 0,
+            "punkte": 4,
             "platz": 2
         },
         {
             "name": "Luis Pfeiffer",
-            "punkte": 0,
+            "punkte": 2,
             "platz": 3
         },
         {
