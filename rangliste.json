@@ -1,43 +1,27 @@
 {
-    "letztes_spiel": {
-        "spiel": "Mexiko vs. Südafrika",
-        "ergebnis": "1:1"
-    },
-    "spektakel": {
-        "spiel": "Mexiko vs. Südafrika",
-        "ergebnis": "1:1",
-        "experten": "Noah Langmaack, Sven Weiland"
-    },
-    "differenz": {
-        "spiel": "Mexiko vs. Südafrika",
-        "tipp": "2:2 (Ergebnis 1:1)",
-        "tipper": "Luis Pfeiffer"
-    },
-    "meist_richtig": "Mexiko vs. Südafrika (2x exakt)",
-    "wenigst_richtig": "Mexiko vs. Südafrika (0x komplett falsch)",
     "gesamt_tabelle": [
+        {
+            "name": "Sven Weiland",
+            "punkte": 8,
+            "exakt": 2,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 1
+        },
+        {
+            "name": "Luis Pfeiffer",
+            "punkte": 5,
+            "exakt": 0,
+            "differenz": 1,
+            "tendenz": 1,
+            "platz": 2
+        },
         {
             "name": "Noah Langmaack",
             "punkte": 4,
             "exakt": 1,
             "differenz": 0,
             "tendenz": 0,
-            "platz": 1
-        },
-        {
-            "name": "Sven Weiland",
-            "punkte": 4,
-            "exakt": 1,
-            "differenz": 0,
-            "tendenz": 0,
-            "platz": 2
-        },
-        {
-            "name": "Luis Pfeiffer",
-            "punkte": 2,
-            "exakt": 0,
-            "differenz": 0,
-            "tendenz": 1,
             "platz": 3
         },
         {
@@ -163,94 +147,164 @@
     ],
     "form_tabelle_letzte_7": [
         {
-            "name": "Noah Langmaack",
-            "punkte": 4,
+            "name": "Sven Weiland",
+            "punkte": 8,
+            "exakt": 2,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 1
         },
         {
-            "name": "Sven Weiland",
-            "punkte": 4,
+            "name": "Luis Pfeiffer",
+            "punkte": 5,
+            "exakt": 0,
+            "differenz": 1,
+            "tendenz": 1,
             "platz": 2
         },
         {
-            "name": "Luis Pfeiffer",
-            "punkte": 2,
+            "name": "Noah Langmaack",
+            "punkte": 4,
+            "exakt": 1,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 3
         },
         {
             "name": "Herr Schäfer",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 4
         },
         {
             "name": "Mika Lorenz",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 5
         },
         {
             "name": "Felix Langmaack",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 6
         },
         {
             "name": "Tim Bredlau",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 7
         },
         {
             "name": "8",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 8
         },
         {
             "name": "9",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 9
         },
         {
             "name": "10",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 10
         },
         {
             "name": "11",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 11
         },
         {
             "name": "12",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 12
         },
         {
             "name": "13",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 13
         },
         {
             "name": "14",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 14
         },
         {
             "name": "15",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 15
         },
         {
             "name": "16",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 16
         },
         {
             "name": "17",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 17
         },
         {
             "name": "18",
             "punkte": 0,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
             "platz": 18
         }
-    ]
+    ],
+    "spektakel": {
+        "spiel": "",
+        "ergebnis": "",
+        "experten": "--"
+    },
+    "differenz": {
+        "spiel": "Keine grobe Abweichung",
+        "tipp": "--",
+        "tipper": "--"
+    },
+    "meist_richtig": "Noch offen",
+    "wenigst_richtig": "Noch offen",
+    "letztes_spiel": {
+        "spiel": "",
+        "ergebnis": ""
+    }
 }
