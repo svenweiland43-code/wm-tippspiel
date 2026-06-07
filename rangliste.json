@@ -1,7 +1,7 @@
 {
     "gesamt_tabelle": [
         {
-            "name": "Sven Weiland",
+            "name": "Noah Langmaack",
             "punkte": 8,
             "exakt": 2,
             "differenz": 0,
@@ -9,19 +9,19 @@
             "platz": 1
         },
         {
+            "name": "Sven Weiland",
+            "punkte": 8,
+            "exakt": 2,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 2
+        },
+        {
             "name": "Luis Pfeiffer",
             "punkte": 5,
             "exakt": 0,
             "differenz": 1,
             "tendenz": 1,
-            "platz": 2
-        },
-        {
-            "name": "Noah Langmaack",
-            "punkte": 4,
-            "exakt": 1,
-            "differenz": 0,
-            "tendenz": 0,
             "platz": 3
         },
         {
@@ -147,7 +147,7 @@
     ],
     "form_tabelle_letzte_7": [
         {
-            "name": "Sven Weiland",
+            "name": "Noah Langmaack",
             "punkte": 8,
             "exakt": 2,
             "differenz": 0,
@@ -155,19 +155,19 @@
             "platz": 1
         },
         {
+            "name": "Sven Weiland",
+            "punkte": 8,
+            "exakt": 2,
+            "differenz": 0,
+            "tendenz": 0,
+            "platz": 2
+        },
+        {
             "name": "Luis Pfeiffer",
             "punkte": 5,
             "exakt": 0,
             "differenz": 1,
             "tendenz": 1,
-            "platz": 2
-        },
-        {
-            "name": "Noah Langmaack",
-            "punkte": 4,
-            "exakt": 1,
-            "differenz": 0,
-            "tendenz": 0,
             "platz": 3
         },
         {
