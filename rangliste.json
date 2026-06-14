@@ -4,17 +4,17 @@
         "ergebnis": "1:1"
     },
     "spektakel": {
-        "spiel": "Katar vs. Schweiz",
-        "ergebnis": "1:1",
-        "experten": "Sven Weiland"
+        "spiel": "Südkorea vs. Tschechien",
+        "ergebnis": "2:1",
+        "experten": "Jaden Göhre"
     },
     "differenz": {
         "spiel": "Australien vs. Türkei",
-        "tipp": "1:2 (Ergebnis 2:0)",
-        "tipper": "Sven Weiland"
+        "tipp": "0:3 (Ergebnis 2:0)",
+        "tipper": "Luis Pfeiffer"
     },
-    "meist_richtig": "Mexiko vs. Südafrika (0x exakt)",
-    "wenigst_richtig": "Südkorea vs. Tschechien (1x komplett falsch)",
+    "meist_richtig": "Mexiko vs. Südafrika (1x exakt)",
+    "wenigst_richtig": "Australien vs. Türkei (4x komplett falsch)",
     "gesamt_tabelle": [
         {
             "name": "Sven Weiland",
@@ -25,27 +25,27 @@
             "platz": 1
         },
         {
-            "name": "Noah Langmaack",
-            "punkte": 0,
-            "exakt": 0,
+            "name": "Jaden Göhre",
+            "punkte": 12,
+            "exakt": 2,
             "differenz": 0,
-            "tendenz": 0,
+            "tendenz": 2,
             "platz": 2
         },
         {
-            "name": "Luis Pfeiffer",
-            "punkte": 0,
-            "exakt": 0,
-            "differenz": 0,
-            "tendenz": 0,
+            "name": "Noah Langmaack",
+            "punkte": 11,
+            "exakt": 1,
+            "differenz": 1,
+            "tendenz": 2,
             "platz": 3
         },
         {
-            "name": "Jaden Göhre",
-            "punkte": 0,
+            "name": "Luis Pfeiffer",
+            "punkte": 6,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 0,
+            "tendenz": 3,
             "platz": 4
         },
         {
@@ -225,7 +225,7 @@
             "platz": 26
         },
         {
-            "name": "Koder",
+            "name": "Koder Farij",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -248,18 +248,18 @@
             "platz": 1
         },
         {
-            "name": "Noah Langmaack",
-            "punkte": 0,
+            "name": "Jaden Göhre",
+            "punkte": 8,
             "platz": 2
         },
         {
-            "name": "Luis Pfeiffer",
-            "punkte": 0,
+            "name": "Noah Langmaack",
+            "punkte": 8,
             "platz": 3
         },
         {
-            "name": "Jaden Göhre",
-            "punkte": 0,
+            "name": "Luis Pfeiffer",
+            "punkte": 4,
             "platz": 4
         },
         {
@@ -373,7 +373,7 @@
             "platz": 26
         },
         {
-            "name": "Koder",
+            "name": "Koder Farij",
             "punkte": 0,
             "platz": 27
         },
