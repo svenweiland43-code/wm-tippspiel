@@ -9,12 +9,12 @@
         "experten": "Jaden Göhre"
     },
     "differenz": {
-        "spiel": "USA vs. Paraguay",
-        "tipp": "0:2 (Ergebnis 4:1)",
-        "tipper": "Clemens, Luis Pfeiffer"
+        "spiel": "Australien vs. Türkei",
+        "tipp": "0:3 (Ergebnis 2:0)",
+        "tipper": "Luis Pfeiffer"
     },
     "meist_richtig": "Mexiko vs. Südafrika (1x exakt)",
-    "wenigst_richtig": "Australien vs. Türkei (4x komplett falsch)",
+    "wenigst_richtig": "Australien vs. Türkei (6x komplett falsch)",
     "gesamt_tabelle": [
         {
             "name": "Sven Weiland",
@@ -41,27 +41,27 @@
             "platz": 3
         },
         {
+            "name": "Clemens",
+            "punkte": 7,
+            "exakt": 0,
+            "differenz": 1,
+            "tendenz": 2,
+            "platz": 4
+        },
+        {
             "name": "Luis Pfeiffer",
             "punkte": 6,
             "exakt": 0,
             "differenz": 0,
             "tendenz": 3,
-            "platz": 4
-        },
-        {
-            "name": "Clemens",
-            "punkte": 5,
-            "exakt": 0,
-            "differenz": 1,
-            "tendenz": 1,
             "platz": 5
         },
         {
             "name": "Hargun Weitz",
-            "punkte": 2,
+            "punkte": 4,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 1,
+            "tendenz": 2,
             "platz": 6
         },
         {
@@ -258,18 +258,18 @@
             "platz": 3
         },
         {
-            "name": "Luis Pfeiffer",
+            "name": "Clemens",
             "punkte": 4,
             "platz": 4
         },
         {
-            "name": "Clemens",
-            "punkte": 2,
+            "name": "Luis Pfeiffer",
+            "punkte": 4,
             "platz": 5
         },
         {
             "name": "Hargun Weitz",
-            "punkte": 0,
+            "punkte": 2,
             "platz": 6
         },
         {
