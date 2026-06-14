@@ -1,7 +1,7 @@
 {
     "letztes_spiel": {
-        "spiel": "Australien vs. Türkei",
-        "ergebnis": "2:0"
+        "spiel": "Katar vs. Schweiz",
+        "ergebnis": "1:1"
     },
     "spektakel": {
         "spiel": "Katar vs. Schweiz",
@@ -9,8 +9,8 @@
         "experten": "Sven Weiland"
     },
     "differenz": {
-        "spiel": "Brasilien vs. Marokko 10",
-        "tipp": "3:2 (Ergebnis 1:1)",
+        "spiel": "Australien vs. Türkei",
+        "tipp": "1:2 (Ergebnis 2:0)",
         "tipper": "Sven Weiland"
     },
     "meist_richtig": "Mexiko vs. Südafrika (0x exakt)",
@@ -57,7 +57,7 @@
             "platz": 5
         },
         {
-            "name": "Felix Langmaack",
+            "name": "Paula Schatte",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -268,7 +268,7 @@
             "platz": 5
         },
         {
-            "name": "Felix Langmaack",
+            "name": "Paula Schatte",
             "punkte": 0,
             "platz": 6
         },
