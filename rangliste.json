@@ -1,31 +1,31 @@
 {
     "letztes_spiel": {
-        "spiel": "Noch kein Spiel beendet",
-        "ergebnis": ""
+        "spiel": "Australien vs. Türkei",
+        "ergebnis": "2:0"
     },
     "spektakel": {
-        "spiel": "Noch kein Treffer",
-        "ergebnis": "-:-",
-        "experten": "Niemand"
+        "spiel": "Katar vs. Schweiz",
+        "ergebnis": "1:1",
+        "experten": "Sven Weiland"
     },
     "differenz": {
-        "spiel": "Noch kein Tipp",
-        "tipp": "-:-",
-        "tipper": "Niemand"
+        "spiel": "Brasilien vs. Marokko 10",
+        "tipp": "3:2 (Ergebnis 1:1)",
+        "tipper": "Sven Weiland"
     },
-    "meist_richtig": "Noch kein Spiel gewertet",
-    "wenigst_richtig": "Noch kein Spiel gewertet",
+    "meist_richtig": "Mexiko vs. Südafrika (0x exakt)",
+    "wenigst_richtig": "Südkorea vs. Tschechien (1x komplett falsch)",
     "gesamt_tabelle": [
         {
-            "name": "Noah Langmaack",
-            "punkte": 0,
-            "exakt": 0,
+            "name": "Sven Weiland",
+            "punkte": 12,
+            "exakt": 2,
             "differenz": 0,
-            "tendenz": 0,
+            "tendenz": 2,
             "platz": 1
         },
         {
-            "name": "Sven Weiland",
+            "name": "Noah Langmaack",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -163,12 +163,12 @@
     ],
     "form_tabelle_letzte_7": [
         {
-            "name": "Noah Langmaack",
-            "punkte": 0,
+            "name": "Sven Weiland",
+            "punkte": 10,
             "platz": 1
         },
         {
-            "name": "Sven Weiland",
+            "name": "Noah Langmaack",
             "punkte": 0,
             "platz": 2
         },
