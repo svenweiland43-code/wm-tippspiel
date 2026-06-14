@@ -9,9 +9,9 @@
         "experten": "Jaden Göhre"
     },
     "differenz": {
-        "spiel": "Australien vs. Türkei",
-        "tipp": "0:3 (Ergebnis 2:0)",
-        "tipper": "Luis Pfeiffer"
+        "spiel": "USA vs. Paraguay",
+        "tipp": "0:2 (Ergebnis 4:1)",
+        "tipper": "Clemens, Luis Pfeiffer"
     },
     "meist_richtig": "Mexiko vs. Südafrika (1x exakt)",
     "wenigst_richtig": "Australien vs. Türkei (4x komplett falsch)",
@@ -49,23 +49,23 @@
             "platz": 4
         },
         {
-            "name": "Mika Lorenz",
-            "punkte": 0,
+            "name": "Clemens",
+            "punkte": 5,
             "exakt": 0,
-            "differenz": 0,
-            "tendenz": 0,
+            "differenz": 1,
+            "tendenz": 1,
             "platz": 5
         },
         {
-            "name": "Paula Schatte",
-            "punkte": 0,
+            "name": "Hargun Weitz",
+            "punkte": 2,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 0,
+            "tendenz": 1,
             "platz": 6
         },
         {
-            "name": "Tim Bredlau",
+            "name": "Mika Lorenz",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -73,7 +73,7 @@
             "platz": 7
         },
         {
-            "name": "Alex Schindler",
+            "name": "Paula Schatte",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -81,7 +81,7 @@
             "platz": 8
         },
         {
-            "name": "Billie Resch",
+            "name": "Tim Bredlau",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -89,7 +89,7 @@
             "platz": 9
         },
         {
-            "name": "Caylin Daubner",
+            "name": "Alex Schindler",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -97,7 +97,7 @@
             "platz": 10
         },
         {
-            "name": "Deborah Berker",
+            "name": "Billie Resch",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -105,7 +105,7 @@
             "platz": 11
         },
         {
-            "name": "Emilie Maurice",
+            "name": "Caylin Daubner",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -113,7 +113,7 @@
             "platz": 12
         },
         {
-            "name": "Johanna Stroman",
+            "name": "Deborah Berker",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -121,7 +121,7 @@
             "platz": 13
         },
         {
-            "name": "Jonas Drtil",
+            "name": "Emilie Maurice",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -129,7 +129,7 @@
             "platz": 14
         },
         {
-            "name": "Lea Sauer",
+            "name": "Johanna Stroman",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -137,7 +137,7 @@
             "platz": 15
         },
         {
-            "name": "Maxim Isaac",
+            "name": "Jonas Drtil",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -145,7 +145,7 @@
             "platz": 16
         },
         {
-            "name": "Sophia Hermann",
+            "name": "Lea Sauer",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -153,7 +153,7 @@
             "platz": 17
         },
         {
-            "name": "Adriana Zekaj",
+            "name": "Maxim Isaac",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -161,7 +161,7 @@
             "platz": 18
         },
         {
-            "name": "Clemens",
+            "name": "Sophia Hermann",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -169,7 +169,7 @@
             "platz": 19
         },
         {
-            "name": "Connor Lüning",
+            "name": "Adriana Zekaj",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -177,7 +177,7 @@
             "platz": 20
         },
         {
-            "name": "Eduardo Barbosa",
+            "name": "Connor Lüning",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -185,7 +185,7 @@
             "platz": 21
         },
         {
-            "name": "Eiko Sender",
+            "name": "Eduardo Barbosa",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -193,7 +193,7 @@
             "platz": 22
         },
         {
-            "name": "Fynn Lotz",
+            "name": "Eiko Sender",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -201,7 +201,7 @@
             "platz": 23
         },
         {
-            "name": "Gabriela Susur",
+            "name": "Fynn Lotz",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -209,7 +209,7 @@
             "platz": 24
         },
         {
-            "name": "Hargun Weitz",
+            "name": "Gabriela Susur",
             "punkte": 0,
             "exakt": 0,
             "differenz": 0,
@@ -263,107 +263,107 @@
             "platz": 4
         },
         {
-            "name": "Mika Lorenz",
-            "punkte": 0,
+            "name": "Clemens",
+            "punkte": 2,
             "platz": 5
         },
         {
-            "name": "Paula Schatte",
+            "name": "Hargun Weitz",
             "punkte": 0,
             "platz": 6
         },
         {
-            "name": "Tim Bredlau",
+            "name": "Mika Lorenz",
             "punkte": 0,
             "platz": 7
         },
         {
-            "name": "Alex Schindler",
+            "name": "Paula Schatte",
             "punkte": 0,
             "platz": 8
         },
         {
-            "name": "Billie Resch",
+            "name": "Tim Bredlau",
             "punkte": 0,
             "platz": 9
         },
         {
-            "name": "Caylin Daubner",
+            "name": "Alex Schindler",
             "punkte": 0,
             "platz": 10
         },
         {
-            "name": "Deborah Berker",
+            "name": "Billie Resch",
             "punkte": 0,
             "platz": 11
         },
         {
-            "name": "Emilie Maurice",
+            "name": "Caylin Daubner",
             "punkte": 0,
             "platz": 12
         },
         {
-            "name": "Johanna Stroman",
+            "name": "Deborah Berker",
             "punkte": 0,
             "platz": 13
         },
         {
-            "name": "Jonas Drtil",
+            "name": "Emilie Maurice",
             "punkte": 0,
             "platz": 14
         },
         {
-            "name": "Lea Sauer",
+            "name": "Johanna Stroman",
             "punkte": 0,
             "platz": 15
         },
         {
-            "name": "Maxim Isaac",
+            "name": "Jonas Drtil",
             "punkte": 0,
             "platz": 16
         },
         {
-            "name": "Sophia Hermann",
+            "name": "Lea Sauer",
             "punkte": 0,
             "platz": 17
         },
         {
-            "name": "Adriana Zekaj",
+            "name": "Maxim Isaac",
             "punkte": 0,
             "platz": 18
         },
         {
-            "name": "Clemens",
+            "name": "Sophia Hermann",
             "punkte": 0,
             "platz": 19
         },
         {
-            "name": "Connor Lüning",
+            "name": "Adriana Zekaj",
             "punkte": 0,
             "platz": 20
         },
         {
-            "name": "Eduardo Barbosa",
+            "name": "Connor Lüning",
             "punkte": 0,
             "platz": 21
         },
         {
-            "name": "Eiko Sender",
+            "name": "Eduardo Barbosa",
             "punkte": 0,
             "platz": 22
         },
         {
-            "name": "Fynn Lotz",
+            "name": "Eiko Sender",
             "punkte": 0,
             "platz": 23
         },
         {
-            "name": "Gabriela Susur",
+            "name": "Fynn Lotz",
             "punkte": 0,
             "platz": 24
         },
         {
-            "name": "Hargun Weitz",
+            "name": "Gabriela Susur",
             "punkte": 0,
             "platz": 25
         },
