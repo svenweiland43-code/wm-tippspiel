@@ -25,19 +25,16 @@
         header h1 { font-size: 1.8rem; color: #fff; margin-bottom: 4px; }
         header p { color: var(--primary); font-weight: bold; font-size: 0.9rem; letter-spacing: 1px; }
 
-        /* Die 3 Hauptbereiche untereinander */
         .section-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 20px; margin-bottom: 24px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.2); }
         .section-card h2 { font-size: 1.3rem; margin-bottom: 16px; border-bottom: 2px solid var(--border); padding-bottom: 8px; color: #fff; display: flex; align-items: center; gap: 8px; }
         .section-card h3 { font-size: 1.05rem; color: var(--primary); margin: 16px 0 10px 0; }
         .section-card h3:first-of-type { margin-top: 0; }
 
-        /* Tabellen & Handy-Optimierung */
         .table-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 12px; }
         table { width: 100%; border-collapse: collapse; text-align: left; }
         th, td { padding: 10px 8px; border-bottom: 1px solid var(--border); }
         th { color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; }
         
-        /* Die große Tabelle darf scrollen, die kleine Form-Tabelle passt komplett aufs Display */
         .table-gesamt { min-width: 460px; }
         .table-form { min-width: 100%; }
         
@@ -48,7 +45,6 @@
         .badge { display: inline-block; padding: 2px 6px; border-radius: 6px; font-size: 0.75rem; font-weight: bold; background: #0f172a; color: #fff; }
         .points { font-size: 1.1rem; font-weight: bold; color: var(--secondary); text-align: right; }
         
-        /* Highlight-Boxen */
         .highlight-box { background: rgba(30, 41, 59, 0.5); border: 1px solid var(--border); padding: 14px; border-radius: 12px; margin-bottom: 14px; }
         .highlight-box.gold { border-left: 4px solid var(--accent); background: rgba(251, 191, 36, 0.02); }
         .highlight-box.red { border-left: 4px solid var(--danger); background: rgba(239, 68, 68, 0.02); }
@@ -61,10 +57,7 @@
         .highlight-value { font-size: 1.05rem; font-weight: bold; color: #fff; }
         .highlight-sub { font-size: 0.85rem; color: var(--text-muted); margin-top: 4px; }
 
-        /* Unauffällige Info-Boxen (Letztes Spiel & Tabellen-Hinweis) */
         .subtle-box { font-size: 0.75rem; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 12px; margin-top: 16px; opacity: 0.5; }
-
-        /* Regeln & Listen */
         .info-list { list-style: none; }
         .info-list li { margin-bottom: 10px; padding-left: 20px; position: relative; }
         .info-list li::before { content: "•"; color: var(--primary); font-weight: bold; position: absolute; left: 0; }
@@ -72,14 +65,11 @@
         
         a { color: var(--primary); text-decoration: none; font-weight: bold; }
         a:hover { text-decoration: underline; }
-        
         .glueckwunsch { text-align: center; font-size: 1.2rem; font-weight: bold; color: #fff; margin-top: 24px; text-shadow: 0 0 10px rgba(56,189,248,0.3); }
         
-        /* Footer & vergrößerter Support-Text */
         footer { text-align: center; margin-top: 40px; padding: 20px 0; border-top: 1px solid var(--border); color: var(--text-muted); }
         .footer-problem-text { font-size: 1.15rem; color: var(--text); font-weight: 500; margin-bottom: 8px; }
         .footer-link-text { font-size: 0.85rem; }
-        
         .loading { text-align: center; padding: 20px; color: var(--text-muted); font-style: italic; }
     </style>
 </head>
@@ -137,6 +127,13 @@
     <div class="section-card">
         <h2>🎯 Turnier-Highlights</h2>
         
+        <!-- Die Kachel für den Solo-Experten -->
+        <div class="highlight-box blue">
+            <div class="highlight-title">👤 Solo-Experte</div>
+            <div class="highlight-value" id="solo-game">Noch kein Solo-Experte</div>
+            <div class="highlight-sub" id="solo-user">Getippt von: Niemand</div>
+        </div>
+
         <div class="highlight-box gold">
             <div class="highlight-title">🔥 Torreichstes Ergebnis getippt</div>
             <div class="highlight-value" id="spektakel-game">Lade Ergebnis...</div>
@@ -202,7 +199,15 @@
             const response = await fetch('./rangliste.json?v=' + new Date().getTime());
             const daten = await response.json();
             
-            // Highlights befüllen
+            // Highlights auslesen (Ausfallsichere Prüfung)
+            if (daten.solo_experte && daten.solo_experte.spiel && daten.solo_experte.spiel !== "Noch kein Solo-Experte") {
+                document.getElementById('solo-game').innerText = `${daten.solo_experte.spiel} (${daten.solo_experte.tipp})`;
+                document.getElementById('solo-user').innerText = `Getippt von: ${daten.solo_experte.experten}`;
+            } else {
+                document.getElementById('solo-game').innerText = "Noch kein Solo-Experte";
+                document.getElementById('solo-user').innerText = "Getippt von: Niemand";
+            }
+
             document.getElementById('spektakel-game').innerText = daten.spektakel.spiel ? `${daten.spektakel.spiel} (${daten.spektakel.ergebnis})` : "Noch kein Treffer";
             document.getElementById('spektakel-user').innerText = `Getippt von: ${daten.spektakel.experten}`;
             
@@ -212,14 +217,13 @@
             document.getElementById('meist-richtig-game').innerText = daten.meist_richtig;
             document.getElementById('wenigst-richtig-game').innerText = daten.wenigst_richtig;
             
-            // Unauffälliges letztes Spiel
             if(daten.letztes_spiel && daten.letztes_spiel.spiel) {
                 document.getElementById('last-match-text').innerText = `${daten.letztes_spiel.spiel} [${daten.letztes_spiel.ergebnis}]`;
             } else {
                 document.getElementById('last-match-text').innerText = "Noch kein Spiel gewertet";
             }
 
-            // Gesamttabelle (Punkte vor die Aufteilung gezogen)
+            // Gesamttabelle
             const gesamtBody = document.getElementById('gesamt-body');
             gesamtBody.innerHTML = '';
             daten.gesamt_tabelle.forEach(s => {
@@ -236,7 +240,7 @@
                 `;
             });
 
-            // Formtabelle (Rechtsbündig ohne Scrollen)
+            // Formtabelle
             const formBody = document.getElementById('form-body');
             formBody.innerHTML = '';
             daten.form_tabelle_letzte_7.slice(0, 7).forEach(s => {
