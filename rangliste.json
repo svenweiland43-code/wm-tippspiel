@@ -11,7 +11,7 @@
     "differenz": {
         "spiel": "Katar vs. Schweiz",
         "tipp": "0:5 (Ergebnis 1:1)",
-        "tipper": "Eduardo Barbosa, Caylin Daubner (2:4 bei Haiti vs. Schottland), Adriana Zekaj (2:4 bei Haiti vs. Schottland), Luis Pfeiffer (0:3 bei Australien vs. Türkei)"
+        "tipper": "Eduardo Barbosa"
     },
     "meist_richtig": "Mexiko vs. Südafrika (7x exakt)",
     "wenigst_richtig": "Australien vs. Türkei (27x komplett falsch)",
@@ -46,7 +46,7 @@
             "exakt": 2,
             "differenz": 0,
             "tendenz": 2,
-            "platz": 3
+            "platz": 4
         },
         {
             "name": "Sophia Hermann",
@@ -54,7 +54,7 @@
             "exakt": 2,
             "differenz": 0,
             "tendenz": 2,
-            "platz": 3
+            "platz": 5
         },
         {
             "name": "Johann Straub",
@@ -62,7 +62,7 @@
             "exakt": 2,
             "differenz": 0,
             "tendenz": 2,
-            "platz": 3
+            "platz": 6
         },
         {
             "name": "Caylin Daubner",
@@ -78,7 +78,7 @@
             "exakt": 1,
             "differenz": 0,
             "tendenz": 4,
-            "platz": 7
+            "platz": 8
         },
         {
             "name": "Noah Langmaack",
@@ -94,7 +94,7 @@
             "exakt": 1,
             "differenz": 1,
             "tendenz": 2,
-            "platz": 9
+            "platz": 10
         },
         {
             "name": "Eiko Sender",
@@ -134,7 +134,7 @@
             "exakt": 1,
             "differenz": 0,
             "tendenz": 2,
-            "platz": 14
+            "platz": 15
         },
         {
             "name": "Gabriela Susur",
@@ -142,7 +142,7 @@
             "exakt": 1,
             "differenz": 0,
             "tendenz": 2,
-            "platz": 14
+            "platz": 16
         },
         {
             "name": "Koder Farij",
@@ -150,7 +150,7 @@
             "exakt": 1,
             "differenz": 0,
             "tendenz": 2,
-            "platz": 14
+            "platz": 17
         },
         {
             "name": "Billie Resch",
@@ -190,7 +190,7 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 3,
-            "platz": 21
+            "platz": 22
         },
         {
             "name": "Lea Sauer",
@@ -198,7 +198,7 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 3,
-            "platz": 21
+            "platz": 23
         },
         {
             "name": "Emilie Maurice",
@@ -222,7 +222,7 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 2,
-            "platz": 25
+            "platz": 26
         },
         {
             "name": "Max Zapletal",
@@ -230,7 +230,7 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 2,
-            "platz": 25
+            "platz": 27
         },
         {
             "name": "Paula Schatte",
@@ -265,7 +265,7 @@
         {
             "name": "Eduardo Barbosa",
             "punkte": 10,
-            "platz": 4
+            "platz": 5
         },
         {
             "name": "Tim Bredlau",
@@ -280,12 +280,12 @@
         {
             "name": "Sophia Hermann",
             "punkte": 8,
-            "platz": 7
+            "platz": 8
         },
         {
             "name": "Johann Straub",
             "punkte": 8,
-            "platz": 7
+            "platz": 9
         },
         {
             "name": "Noah Langmaack",
@@ -310,7 +310,7 @@
         {
             "name": "Adriana Zekaj",
             "punkte": 6,
-            "platz": 13
+            "platz": 14
         },
         {
             "name": "Billie Resch",
@@ -330,7 +330,7 @@
         {
             "name": "Koder Farij",
             "punkte": 4,
-            "platz": 17
+            "platz": 18
         },
         {
             "name": "Alex Schindler",
@@ -350,12 +350,12 @@
         {
             "name": "Deborah Berker",
             "punkte": 4,
-            "platz": 21
+            "platz": 22
         },
         {
             "name": "Lea Sauer",
             "punkte": 4,
-            "platz": 21
+            "platz": 23
         },
         {
             "name": "Emilie Maurice",
@@ -370,12 +370,12 @@
         {
             "name": "Hargun Weitz",
             "punkte": 2,
-            "platz": 25
+            "platz": 26
         },
         {
             "name": "Max Zapletal",
             "punkte": 2,
-            "platz": 25
+            "platz": 27
         },
         {
             "name": "Paula Schatte",
