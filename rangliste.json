@@ -1,7 +1,7 @@
 {
     "letztes_spiel": {
-        "spiel": "Australien vs. Türkei",
-        "ergebnis": "2:0"
+        "spiel": "DEUTSCHLAND vs. Curacao",
+        "ergebnis": "7:1"
     },
     "spektakel": {
         "spiel": "Südkorea vs. Tschechien",
@@ -9,9 +9,9 @@
         "experten": "Jaden Göhre, Sophia Hermann, Adriana Zekaj, Eiko Sender, Fynn Lotz, Johann Straub"
     },
     "differenz": {
-        "spiel": "Katar vs. Schweiz",
-        "tipp": "0:5 (Ergebnis 1:1)",
-        "tipper": "Eduardo Barbosa"
+        "spiel": "DEUTSCHLAND vs. Curacao",
+        "tipp": "2:0 (Ergebnis 7:1)",
+        "tipper": "Caylin Daubner, Jonas Drtil, Johann Straub"
     },
     "solo_experte": {
         "spiel": "Katar vs. Schweiz",
@@ -23,218 +23,218 @@
     "gesamt_tabelle": [
         {
             "name": "Jonas Drtil",
-            "punkte": 14,
+            "punkte": 16,
             "exakt": 3,
             "differenz": 0,
-            "tendenz": 1,
+            "tendenz": 2,
             "platz": 1
         },
         {
-            "name": "Fynn Lotz",
-            "punkte": 13,
+            "name": "Jaden Göhre",
+            "punkte": 15,
             "exakt": 2,
             "differenz": 1,
-            "tendenz": 1,
+            "tendenz": 2,
+            "platz": 2
+        },
+        {
+            "name": "Fynn Lotz",
+            "punkte": 15,
+            "exakt": 2,
+            "differenz": 1,
+            "tendenz": 2,
             "platz": 2
         },
         {
             "name": "Sven Weiland",
-            "punkte": 12,
+            "punkte": 14,
             "exakt": 2,
             "differenz": 0,
-            "tendenz": 2,
-            "platz": 3
-        },
-        {
-            "name": "Jaden Göhre",
-            "punkte": 12,
-            "exakt": 2,
-            "differenz": 0,
-            "tendenz": 2,
-            "platz": 3
+            "tendenz": 3,
+            "platz": 4
         },
         {
             "name": "Sophia Hermann",
-            "punkte": 12,
+            "punkte": 14,
             "exakt": 2,
             "differenz": 0,
-            "tendenz": 2,
-            "platz": 3
+            "tendenz": 3,
+            "platz": 4
         },
         {
             "name": "Johann Straub",
-            "punkte": 12,
+            "punkte": 14,
             "exakt": 2,
             "differenz": 0,
-            "tendenz": 2,
-            "platz": 3
+            "tendenz": 3,
+            "platz": 4
         },
         {
             "name": "Caylin Daubner",
-            "punkte": 12,
+            "punkte": 14,
             "exakt": 1,
             "differenz": 0,
-            "tendenz": 4,
+            "tendenz": 5,
             "platz": 7
         },
         {
             "name": "Eduardo Barbosa",
-            "punkte": 12,
+            "punkte": 14,
             "exakt": 1,
             "differenz": 0,
-            "tendenz": 4,
+            "tendenz": 5,
             "platz": 7
         },
         {
             "name": "Noah Langmaack",
-            "punkte": 11,
+            "punkte": 13,
             "exakt": 1,
             "differenz": 1,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 9
         },
         {
             "name": "Tim Bredlau",
-            "punkte": 11,
+            "punkte": 13,
             "exakt": 1,
             "differenz": 1,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 9
         },
         {
             "name": "Eiko Sender",
-            "punkte": 10,
+            "punkte": 12,
             "exakt": 1,
             "differenz": 0,
-            "tendenz": 3,
+            "tendenz": 4,
             "platz": 11
         },
         {
             "name": "Maxim Isaac",
-            "punkte": 10,
+            "punkte": 12,
             "exakt": 0,
             "differenz": 2,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 12
         },
         {
             "name": "Johanna Stroman",
-            "punkte": 8,
+            "punkte": 10,
             "exakt": 2,
             "differenz": 0,
-            "tendenz": 0,
+            "tendenz": 1,
             "platz": 13
         },
         {
             "name": "Mika Lorenz",
-            "punkte": 8,
+            "punkte": 10,
             "exakt": 1,
             "differenz": 0,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 14
         },
         {
             "name": "Adriana Zekaj",
-            "punkte": 8,
+            "punkte": 10,
             "exakt": 1,
             "differenz": 0,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 14
         },
         {
             "name": "Gabriela Susur",
-            "punkte": 8,
+            "punkte": 10,
             "exakt": 1,
             "differenz": 0,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 14
         },
         {
             "name": "Koder Farij",
-            "punkte": 8,
+            "punkte": 10,
             "exakt": 1,
             "differenz": 0,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 14
         },
         {
             "name": "Billie Resch",
-            "punkte": 8,
+            "punkte": 10,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 4,
+            "tendenz": 5,
             "platz": 18
         },
         {
             "name": "Alex Schindler",
-            "punkte": 7,
+            "punkte": 9,
             "exakt": 1,
             "differenz": 1,
-            "tendenz": 0,
+            "tendenz": 1,
             "platz": 19
         },
         {
             "name": "Clemens",
-            "punkte": 7,
+            "punkte": 9,
             "exakt": 0,
             "differenz": 1,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 20
         },
         {
             "name": "Luis Pfeiffer",
-            "punkte": 6,
+            "punkte": 8,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 3,
+            "tendenz": 4,
             "platz": 21
         },
         {
             "name": "Deborah Berker",
-            "punkte": 6,
+            "punkte": 8,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 3,
+            "tendenz": 4,
             "platz": 21
         },
         {
             "name": "Lea Sauer",
-            "punkte": 6,
+            "punkte": 8,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 3,
+            "tendenz": 4,
             "platz": 21
         },
         {
             "name": "Emilie Maurice",
-            "punkte": 5,
+            "punkte": 7,
             "exakt": 0,
             "differenz": 1,
-            "tendenz": 1,
+            "tendenz": 2,
             "platz": 24
         },
         {
             "name": "Connor Lüning",
-            "punkte": 4,
+            "punkte": 6,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 25
         },
         {
             "name": "Hargun Weitz",
-            "punkte": 4,
+            "punkte": 6,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 25
         },
         {
             "name": "Max Zapletal",
-            "punkte": 4,
+            "punkte": 6,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 2,
+            "tendenz": 3,
             "platz": 25
         },
         {
@@ -249,137 +249,137 @@
     "form_tabelle_letzte_7": [
         {
             "name": "Jonas Drtil",
-            "punkte": 10,
+            "punkte": 12,
             "platz": 1
         },
         {
-            "name": "Fynn Lotz",
-            "punkte": 10,
+            "name": "Sven Weiland",
+            "punkte": 12,
             "platz": 2
         },
         {
-            "name": "Sven Weiland",
-            "punkte": 10,
+            "name": "Caylin Daubner",
+            "punkte": 12,
             "platz": 3
         },
         {
-            "name": "Caylin Daubner",
-            "punkte": 10,
-            "platz": 4
-        },
-        {
             "name": "Eduardo Barbosa",
-            "punkte": 10,
-            "platz": 4
-        },
-        {
-            "name": "Tim Bredlau",
-            "punkte": 9,
-            "platz": 6
-        },
-        {
-            "name": "Jaden Göhre",
-            "punkte": 8,
-            "platz": 7
-        },
-        {
-            "name": "Sophia Hermann",
-            "punkte": 8,
-            "platz": 7
-        },
-        {
-            "name": "Johann Straub",
-            "punkte": 8,
-            "platz": 7
+            "punkte": 12,
+            "platz": 3
         },
         {
             "name": "Noah Langmaack",
-            "punkte": 8,
-            "platz": 10
+            "punkte": 10,
+            "platz": 5
         },
         {
-            "name": "Eiko Sender",
+            "name": "Fynn Lotz",
             "punkte": 8,
-            "platz": 11
+            "platz": 6
         },
         {
-            "name": "Maxim Isaac",
+            "name": "Tim Bredlau",
             "punkte": 8,
-            "platz": 12
+            "platz": 7
         },
         {
             "name": "Mika Lorenz",
-            "punkte": 6,
-            "platz": 13
-        },
-        {
-            "name": "Adriana Zekaj",
-            "punkte": 6,
-            "platz": 13
+            "punkte": 8,
+            "platz": 8
         },
         {
             "name": "Billie Resch",
+            "punkte": 8,
+            "platz": 9
+        },
+        {
+            "name": "Jaden Göhre",
+            "punkte": 7,
+            "platz": 10
+        },
+        {
+            "name": "Maxim Isaac",
+            "punkte": 7,
+            "platz": 11
+        },
+        {
+            "name": "Sophia Hermann",
+            "punkte": 6,
+            "platz": 12
+        },
+        {
+            "name": "Johann Straub",
+            "punkte": 6,
+            "platz": 12
+        },
+        {
+            "name": "Eiko Sender",
+            "punkte": 6,
+            "platz": 14
+        },
+        {
+            "name": "Johanna Stroman",
             "punkte": 6,
             "platz": 15
         },
         {
-            "name": "Johanna Stroman",
-            "punkte": 4,
+            "name": "Gabriela Susur",
+            "punkte": 6,
             "platz": 16
         },
         {
-            "name": "Gabriela Susur",
-            "punkte": 4,
-            "platz": 17
-        },
-        {
             "name": "Koder Farij",
-            "punkte": 4,
-            "platz": 17
+            "punkte": 6,
+            "platz": 16
         },
         {
             "name": "Alex Schindler",
-            "punkte": 4,
-            "platz": 19
+            "punkte": 6,
+            "platz": 18
         },
         {
             "name": "Clemens",
-            "punkte": 4,
-            "platz": 20
+            "punkte": 6,
+            "platz": 19
         },
         {
             "name": "Luis Pfeiffer",
-            "punkte": 4,
-            "platz": 21
+            "punkte": 6,
+            "platz": 20
         },
         {
             "name": "Deborah Berker",
-            "punkte": 4,
-            "platz": 21
+            "punkte": 6,
+            "platz": 20
         },
         {
             "name": "Lea Sauer",
-            "punkte": 4,
-            "platz": 21
+            "punkte": 6,
+            "platz": 20
         },
         {
             "name": "Emilie Maurice",
-            "punkte": 3,
+            "punkte": 5,
+            "platz": 23
+        },
+        {
+            "name": "Adriana Zekaj",
+            "punkte": 4,
             "platz": 24
         },
         {
             "name": "Connor Lüning",
-            "punkte": 2,
+            "punkte": 4,
             "platz": 25
         },
         {
             "name": "Hargun Weitz",
-            "punkte": 2,
+            "punkte": 4,
             "platz": 25
         },
         {
             "name": "Max Zapletal",
-            "punkte": 2,
+            "punkte": 4,
             "platz": 25
         },
         {
