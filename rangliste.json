@@ -10,8 +10,8 @@
     },
     "differenz": {
         "spiel": "DEUTSCHLAND vs. Curacao",
-        "tipp": "0:5 (Ergebnis 7:1)",
-        "tipper": "Tim König"
+        "tipp": "2:0 (Ergebnis 7:1)",
+        "tipper": "Caylin Daubner, Jonas Drtil, Johann Straub"
     },
     "solo_experte": {
         "spiel": "Elfenbeinküste vs. Ecuador",
@@ -190,12 +190,20 @@
             "platz": 18
         },
         {
+            "name": "Tim König",
+            "punkte": 10,
+            "exakt": 1,
+            "differenz": 0,
+            "tendenz": 3,
+            "platz": 22
+        },
+        {
             "name": "Sophia Varga",
             "punkte": 10,
             "exakt": 0,
             "differenz": 0,
             "tendenz": 5,
-            "platz": 22
+            "platz": 23
         },
         {
             "name": "Connor Lüning",
@@ -203,7 +211,7 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 5,
-            "platz": 22
+            "platz": 23
         },
         {
             "name": "Emilie Maurice",
@@ -211,14 +219,6 @@
             "exakt": 0,
             "differenz": 1,
             "tendenz": 3,
-            "platz": 24
-        },
-        {
-            "name": "Tim König",
-            "punkte": 8,
-            "exakt": 1,
-            "differenz": 0,
-            "tendenz": 2,
             "platz": 25
         },
         {
@@ -379,37 +379,37 @@
             "platz": 23
         },
         {
-            "name": "Luis Pfeiffer",
+            "name": "Tim König",
             "punkte": 6,
             "platz": 24
+        },
+        {
+            "name": "Luis Pfeiffer",
+            "punkte": 6,
+            "platz": 25
         },
         {
             "name": "Lea Sauer",
             "punkte": 6,
-            "platz": 24
+            "platz": 25
         },
         {
             "name": "Hargun Weitz",
             "punkte": 6,
-            "platz": 24
+            "platz": 25
         },
         {
             "name": "Max Zapletal",
             "punkte": 6,
-            "platz": 24
+            "platz": 25
         },
         {
             "name": "Roy Chi",
             "punkte": 6,
-            "platz": 24
+            "platz": 25
         },
         {
             "name": "Johanna Stroman",
-            "punkte": 4,
-            "platz": 29
-        },
-        {
-            "name": "Tim König",
             "punkte": 4,
             "platz": 30
         }
