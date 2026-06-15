@@ -269,27 +269,27 @@
             "platz": 1
         },
         {
-            "name": "Jonas Drtil",
-            "punkte": 10,
+            "name": "Sven Weiland",
+            "punkte": 12,
             "platz": 2
         },
         {
-            "name": "Sven Weiland",
-            "punkte": 10,
+            "name": "Jonas Drtil",
+            "punkte": 8,
             "platz": 3
         },
         {
             "name": "Johann Straub",
-            "punkte": 10,
-            "platz": 3
-        },
-        {
-            "name": "Deborah Berker",
-            "punkte": 9,
-            "platz": 5
+            "punkte": 8,
+            "platz": 4
         },
         {
             "name": "Eduardo Barbosa",
+            "punkte": 8,
+            "platz": 5
+        },
+        {
+            "name": "Caylin Daubner",
             "punkte": 8,
             "platz": 6
         },
@@ -299,119 +299,119 @@
             "platz": 7
         },
         {
-            "name": "Sophia Hermann",
-            "punkte": 6,
+            "name": "Deborah Berker",
+            "punkte": 7,
             "platz": 8
         },
         {
-            "name": "Caylin Daubner",
+            "name": "Eiko Sender",
             "punkte": 6,
             "platz": 9
         },
         {
+            "name": "Alex Schindler",
+            "punkte": 6,
+            "platz": 10
+        },
+        {
+            "name": "Sophia Hermann",
+            "punkte": 4,
+            "platz": 11
+        },
+        {
             "name": "Noah Langmaack",
-            "punkte": 6,
-            "platz": 10
-        },
-        {
-            "name": "Tim Bredlau",
-            "punkte": 6,
-            "platz": 10
-        },
-        {
-            "name": "Maxim Isaac",
-            "punkte": 6,
+            "punkte": 4,
             "platz": 12
         },
         {
-            "name": "Alex Schindler",
-            "punkte": 6,
-            "platz": 13
-        },
-        {
-            "name": "Mika Lorenz",
-            "punkte": 6,
-            "platz": 14
-        },
-        {
-            "name": "Gabriela Susur",
-            "punkte": 6,
-            "platz": 14
-        },
-        {
-            "name": "Koder Farij",
-            "punkte": 6,
-            "platz": 14
-        },
-        {
-            "name": "Sophia Varga",
-            "punkte": 6,
-            "platz": 17
-        },
-        {
-            "name": "Connor Lüning",
-            "punkte": 6,
-            "platz": 17
-        },
-        {
-            "name": "Hargun Weitz",
-            "punkte": 6,
-            "platz": 19
-        },
-        {
-            "name": "Jaden Göhre",
-            "punkte": 5,
-            "platz": 20
-        },
-        {
-            "name": "Fynn Lotz",
+            "name": "Tim Bredlau",
             "punkte": 4,
-            "platz": 21
+            "platz": 12
         },
         {
-            "name": "Eiko Sender",
+            "name": "Maxim Isaac",
             "punkte": 4,
-            "platz": 22
+            "platz": 14
         },
         {
             "name": "Johanna Stroman",
             "punkte": 4,
-            "platz": 23
+            "platz": 15
+        },
+        {
+            "name": "Mika Lorenz",
+            "punkte": 4,
+            "platz": 16
         },
         {
             "name": "Adriana Zekaj",
             "punkte": 4,
-            "platz": 24
+            "platz": 16
+        },
+        {
+            "name": "Gabriela Susur",
+            "punkte": 4,
+            "platz": 16
+        },
+        {
+            "name": "Koder Farij",
+            "punkte": 4,
+            "platz": 16
         },
         {
             "name": "Tim König",
             "punkte": 4,
-            "platz": 25
+            "platz": 20
+        },
+        {
+            "name": "Sophia Varga",
+            "punkte": 4,
+            "platz": 21
+        },
+        {
+            "name": "Connor Lüning",
+            "punkte": 4,
+            "platz": 21
         },
         {
             "name": "Emilie Maurice",
             "punkte": 4,
-            "platz": 26
+            "platz": 23
         },
         {
-            "name": "Luis Pfeiffer",
+            "name": "Hargun Weitz",
             "punkte": 4,
-            "platz": 27
-        },
-        {
-            "name": "Lea Sauer",
-            "punkte": 4,
-            "platz": 27
+            "platz": 24
         },
         {
             "name": "Max Zapletal",
             "punkte": 4,
+            "platz": 24
+        },
+        {
+            "name": "Jaden Göhre",
+            "punkte": 3,
+            "platz": 26
+        },
+        {
+            "name": "Fynn Lotz",
+            "punkte": 2,
             "platz": 27
         },
         {
+            "name": "Luis Pfeiffer",
+            "punkte": 2,
+            "platz": 28
+        },
+        {
+            "name": "Lea Sauer",
+            "punkte": 2,
+            "platz": 28
+        },
+        {
             "name": "Roy Chi",
-            "punkte": 4,
-            "platz": 27
+            "punkte": 2,
+            "platz": 28
         }
     ],
     "alle_spiele_stats": [
@@ -436,46 +436,6 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Mexiko vs. Südkorea",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Tschechien vs. Südafrika",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Tschechien vs. Mexiko",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Südafrika vs. Südkorea",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
             "spiel": "Kanada vs. Bosnien",
             "phase": "Gruppe",
             "beendet": true,
@@ -486,51 +446,31 @@
             "anzahl_2": 1
         },
         {
-            "spiel": "Katar vs. Schweiz",
+            "spiel": "USA vs. Paraguay",
             "phase": "Gruppe",
             "beendet": true,
-            "ergebnis": "1:1",
+            "ergebnis": "4:1",
+            "haeufigster_tipp": "2:1",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 23
+        },
+        {
+            "spiel": "Haiti vs. Schottland",
+            "phase": "Gruppe",
+            "beendet": true,
+            "ergebnis": "0:1",
             "haeufigster_tipp": "0:2",
-            "anzahl_4": 2,
-            "anzahl_3": 0,
-            "anzahl_2": 0
+            "anzahl_4": 6,
+            "anzahl_3": 2,
+            "anzahl_2": 19
         },
         {
-            "spiel": "Kanada vs. Katar",
+            "spiel": "Australien vs. Türkei",
             "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Schweiz vs. Bosnien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Schweiz vs. Kanada",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Bosnien vs. Katar",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
+            "beendet": true,
+            "ergebnis": "2:0",
+            "haeufigster_tipp": "1:2",
             "anzahl_4": 0,
             "anzahl_3": 0,
             "anzahl_2": 0
@@ -546,124 +486,14 @@
             "anzahl_2": 4
         },
         {
-            "spiel": "Haiti vs. Schottland",
+            "spiel": "Katar vs. Schweiz",
             "phase": "Gruppe",
             "beendet": true,
-            "ergebnis": "0:1",
+            "ergebnis": "1:1",
             "haeufigster_tipp": "0:2",
-            "anzahl_4": 6,
-            "anzahl_3": 2,
-            "anzahl_2": 19
-        },
-        {
-            "spiel": "Brasilien vs. Haiti",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
+            "anzahl_4": 2,
             "anzahl_3": 0,
             "anzahl_2": 0
-        },
-        {
-            "spiel": "Schottland vs. Marokko",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Schottland vs. Brasilien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Marokko vs. Haiti",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "USA vs. Paraguay",
-            "phase": "Gruppe",
-            "beendet": true,
-            "ergebnis": "4:1",
-            "haeufigster_tipp": "2:1",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 23
-        },
-        {
-            "spiel": "Australien vs. Türkei",
-            "phase": "Gruppe",
-            "beendet": true,
-            "ergebnis": "2:0",
-            "haeufigster_tipp": "1:2",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "USA vs. Australien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Türkei vs. Paraguay",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Türkei vs. USA",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Paraguay vs. Australien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "DEUTSCHLAND vs. Curacao",
-            "phase": "Gruppe",
-            "beendet": true,
-            "ergebnis": "7:1",
-            "haeufigster_tipp": "4:0",
-            "anzahl_4": 0,
-            "anzahl_3": 1,
-            "anzahl_2": 29
         },
         {
             "spiel": "Elfenbeinküste vs. Ecuador",
@@ -676,44 +506,14 @@
             "anzahl_2": 2
         },
         {
-            "spiel": "DEUTSCHLAND vs. Elfenbeinküste",
+            "spiel": "DEUTSCHLAND vs. Curacao",
             "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
+            "beendet": true,
+            "ergebnis": "7:1",
+            "haeufigster_tipp": "4:0",
             "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Ecuador vs. Curacao",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Ecuador vs. DEUTSCHLAND",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Curacao vs. Elfenbeinküste",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
+            "anzahl_3": 1,
+            "anzahl_2": 29
         },
         {
             "spiel": "Niederlande vs. Japan",
@@ -736,37 +536,17 @@
             "anzahl_2": 22
         },
         {
-            "spiel": "Niederlande vs. Schweden",
+            "spiel": "Spanien vs. Kap Verde",
             "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
+            "beendet": true,
+            "ergebnis": "0:0",
+            "haeufigster_tipp": "3:0",
             "anzahl_4": 0,
             "anzahl_3": 0,
             "anzahl_2": 0
         },
         {
-            "spiel": "Tunesien vs. Japan",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Tunesien vs. Niederlande",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Japan vs. Schweden",
+            "spiel": "Saudi-Arabien vs. Uruguay",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -796,106 +576,6 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Belgien vs. Iran",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Neuseeland vs. Ägypten",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Neuseeland vs. Belgien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Ägypten vs. Iran",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Spanien vs. Kap Verde",
-            "phase": "Gruppe",
-            "beendet": true,
-            "ergebnis": "0:0",
-            "haeufigster_tipp": "3:0",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Saudi-Arabien vs. Uruguay",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Spanien vs. Saudi-Arabien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Uruguay vs. Kap Verde",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Uruguay vs. Spanien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Kap Verde vs. Saudi-Arabien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
             "spiel": "Frankreich vs. Senegal",
             "phase": "Gruppe",
             "beendet": false,
@@ -907,46 +587,6 @@
         },
         {
             "spiel": "Irak vs. Norwegen",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Frankreich vs. Irak",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Norwegen vs. Senegal",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Norwegen vs. Frankreich",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Senegal vs. Irak",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -976,7 +616,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Argentinien vs. Österreich",
+            "spiel": "England vs. Kroatien",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -986,27 +626,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Jordanien vs. Algerien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Jordanien vs. Argentinien",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Algerien vs. Österreich",
+            "spiel": "Ghana vs. Panama",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -1036,7 +656,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Portugal vs. Usbekistan",
+            "spiel": "Tschechien vs. Südafrika",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -1046,7 +666,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Kolumbien vs. DRK",
+            "spiel": "Schweiz vs. Bosnien",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -1056,7 +676,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Kolumbien vs. Portugal",
+            "spiel": "Kanada vs. Katar",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -1066,7 +686,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "DRK vs. Usbekistan",
+            "spiel": "Mexiko vs. Südkorea",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -1076,7 +696,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "England vs. Kroatien",
+            "spiel": "Brasilien vs. Haiti",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -1086,7 +706,147 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Ghana vs. Panama",
+            "spiel": "Schottland vs. Marokko",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Türkei vs. Paraguay",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "USA vs. Australien",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "DEUTSCHLAND vs. Elfenbeinküste",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Ecuador vs. Curacao",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Niederlande vs. Schweden",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Tunesien vs. Japan",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Uruguay vs. Kap Verde",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Spanien vs. Saudi-Arabien",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Belgien vs. Iran",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Neuseeland vs. Ägypten",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Norwegen vs. Senegal",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Frankreich vs. Irak",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Argentinien vs. Österreich",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Jordanien vs. Algerien",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -1116,6 +876,206 @@
             "anzahl_2": 0
         },
         {
+            "spiel": "Portugal vs. Usbekistan",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Kolumbien vs. DRK",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Schweiz vs. Kanada",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Bosnien vs. Katar",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Schottland vs. Brasilien",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Marokko vs. Haiti",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Tschechien vs. Mexiko",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Südafrika vs. Südkorea",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Ecuador vs. DEUTSCHLAND",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Curacao vs. Elfenbeinküste",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Tunesien vs. Niederlande",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Japan vs. Schweden",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Türkei vs. USA",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Paraguay vs. Australien",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Norwegen vs. Frankreich",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Senegal vs. Irak",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Neuseeland vs. Belgien",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Ägypten vs. Iran",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Uruguay vs. Spanien",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Kap Verde vs. Saudi-Arabien",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
             "spiel": "Panama vs. England",
             "phase": "Gruppe",
             "beendet": false,
@@ -1127,6 +1087,46 @@
         },
         {
             "spiel": "Kroatien vs. Ghana",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Jordanien vs. Argentinien",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Algerien vs. Österreich",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Kolumbien vs. Portugal",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "DRK vs. Usbekistan",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
