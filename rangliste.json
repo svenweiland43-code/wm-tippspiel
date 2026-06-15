@@ -6,7 +6,7 @@
     "spektakel": {
         "spiel": "Niederlande vs. Japan",
         "ergebnis": "2:2",
-        "experten": "Clemens, Eduardo Barbosa, Johann Straub"
+        "experten": "Clemens Kukula, Eduardo Barbosa, Johann Straub"
     },
     "differenz": {
         "spiel": "DEUTSCHLAND vs. Curacao",
@@ -102,7 +102,7 @@
             "platz": 9
         },
         {
-            "name": "Clemens",
+            "name": "Clemens Kukula",
             "punkte": 13,
             "exakt": 1,
             "differenz": 1,
@@ -268,7 +268,7 @@
             "platz": 4
         },
         {
-            "name": "Clemens",
+            "name": "Clemens Kukula",
             "punkte": 10,
             "platz": 5
         },
