@@ -10,16 +10,16 @@
     },
     "differenz": {
         "spiel": "DEUTSCHLAND vs. Curacao",
-        "tipp": "2:0 (Ergebnis 7:1)",
-        "tipper": "Caylin Daubner, Jonas Drtil, Johann Straub"
+        "tipp": "0:5 (Ergebnis 7:1)",
+        "tipper": "Tim"
     },
     "solo_experte": {
         "spiel": "Katar vs. Schweiz",
         "tipp": "1:1",
         "experten": "Sven Weiland, Caylin Daubner"
     },
-    "meist_richtig": "Mexiko vs. Südafrika (7x exakt)",
-    "wenigst_richtig": "Australien vs. Türkei (27x komplett falsch)",
+    "meist_richtig": "Mexiko vs. Südafrika (8x exakt)",
+    "wenigst_richtig": "Australien vs. Türkei (30x komplett falsch)",
     "gesamt_tabelle": [
         {
             "name": "Johann Straub",
@@ -198,6 +198,14 @@
             "platz": 22
         },
         {
+            "name": "Sophia Varga",
+            "punkte": 8,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 4,
+            "platz": 22
+        },
+        {
             "name": "Deborah Berker",
             "punkte": 8,
             "exakt": 0,
@@ -222,12 +230,28 @@
             "platz": 22
         },
         {
+            "name": "Roy Chi",
+            "punkte": 8,
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 4,
+            "platz": 22
+        },
+        {
+            "name": "Tim",
+            "punkte": 6,
+            "exakt": 1,
+            "differenz": 0,
+            "tendenz": 1,
+            "platz": 28
+        },
+        {
             "name": "Hargun Weitz",
             "punkte": 6,
             "exakt": 0,
             "differenz": 0,
             "tendenz": 3,
-            "platz": 26
+            "platz": 29
         },
         {
             "name": "Max Zapletal",
@@ -235,15 +259,7 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 3,
-            "platz": 26
-        },
-        {
-            "name": "Sophia Varga",
-            "punkte": 0,
-            "exakt": 0,
-            "differenz": 0,
-            "tendenz": 0,
-            "platz": 28
+            "platz": 29
         }
     ],
     "form_tabelle_letzte_7": [
@@ -348,6 +364,11 @@
             "platz": 20
         },
         {
+            "name": "Sophia Varga",
+            "punkte": 6,
+            "platz": 20
+        },
+        {
             "name": "Deborah Berker",
             "punkte": 6,
             "platz": 20
@@ -363,29 +384,34 @@
             "platz": 20
         },
         {
+            "name": "Roy Chi",
+            "punkte": 6,
+            "platz": 20
+        },
+        {
             "name": "Adriana Zekaj",
             "punkte": 4,
-            "platz": 24
+            "platz": 26
         },
         {
             "name": "Hargun Weitz",
             "punkte": 4,
-            "platz": 25
+            "platz": 27
         },
         {
             "name": "Max Zapletal",
             "punkte": 4,
-            "platz": 25
+            "platz": 27
         },
         {
             "name": "Johanna Stroman",
             "punkte": 2,
-            "platz": 27
+            "platz": 29
         },
         {
-            "name": "Sophia Varga",
-            "punkte": 0,
-            "platz": 28
+            "name": "Tim",
+            "punkte": 2,
+            "platz": 30
         }
     ]
 }
