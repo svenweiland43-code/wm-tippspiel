@@ -215,11 +215,11 @@
         },
         {
             "name": "Connor Lüning",
-            "punkte": 6,
+            "punkte": 8,
             "exakt": 0,
             "differenz": 0,
-            "tendenz": 3,
-            "platz": 25
+            "tendenz": 4,
+            "platz": 22
         },
         {
             "name": "Hargun Weitz",
@@ -227,7 +227,7 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 3,
-            "platz": 25
+            "platz": 26
         },
         {
             "name": "Max Zapletal",
@@ -235,7 +235,7 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 3,
-            "platz": 25
+            "platz": 26
         },
         {
             "name": "Sophia Varga",
@@ -358,24 +358,24 @@
             "platz": 20
         },
         {
-            "name": "Adriana Zekaj",
-            "punkte": 4,
-            "platz": 23
+            "name": "Connor Lüning",
+            "punkte": 6,
+            "platz": 20
         },
         {
-            "name": "Connor Lüning",
+            "name": "Adriana Zekaj",
             "punkte": 4,
             "platz": 24
         },
         {
             "name": "Hargun Weitz",
             "punkte": 4,
-            "platz": 24
+            "platz": 25
         },
         {
             "name": "Max Zapletal",
             "punkte": 4,
-            "platz": 24
+            "platz": 25
         },
         {
             "name": "Johanna Stroman",
