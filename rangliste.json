@@ -1,7 +1,7 @@
 {
     "letztes_spiel": {
-        "spiel": "Belgien vs. Ägypten",
-        "ergebnis": "0:1"
+        "spiel": "Spanien vs. Kap Verde",
+        "ergebnis": "0:0"
     },
     "spektakel": {
         "spiel": "Niederlande vs. Japan",
@@ -110,20 +110,12 @@
             "platz": 10
         },
         {
-            "name": "Koder Farij",
-            "punkte": 15,
-            "exakt": 1,
-            "differenz": 1,
-            "tendenz": 4,
-            "platz": 10
-        },
-        {
             "name": "Eiko Sender",
             "punkte": 14,
             "exakt": 1,
             "differenz": 0,
             "tendenz": 5,
-            "platz": 13
+            "platz": 12
         },
         {
             "name": "Maxim Isaac",
@@ -131,7 +123,7 @@
             "exakt": 0,
             "differenz": 2,
             "tendenz": 4,
-            "platz": 14
+            "platz": 13
         },
         {
             "name": "Billie Resch",
@@ -139,7 +131,7 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 7,
-            "platz": 15
+            "platz": 14
         },
         {
             "name": "Alex Schindler",
@@ -147,7 +139,7 @@
             "exakt": 1,
             "differenz": 1,
             "tendenz": 3,
-            "platz": 16
+            "platz": 15
         },
         {
             "name": "Deborah Berker",
@@ -155,7 +147,7 @@
             "exakt": 0,
             "differenz": 1,
             "tendenz": 5,
-            "platz": 17
+            "platz": 16
         },
         {
             "name": "Johanna Stroman",
@@ -163,7 +155,7 @@
             "exakt": 2,
             "differenz": 0,
             "tendenz": 2,
-            "platz": 18
+            "platz": 17
         },
         {
             "name": "Mika Lorenz",
@@ -171,7 +163,7 @@
             "exakt": 1,
             "differenz": 0,
             "tendenz": 4,
-            "platz": 19
+            "platz": 18
         },
         {
             "name": "Adriana Zekaj",
@@ -179,7 +171,7 @@
             "exakt": 1,
             "differenz": 0,
             "tendenz": 4,
-            "platz": 19
+            "platz": 18
         },
         {
             "name": "Gabriela Susur",
@@ -187,7 +179,15 @@
             "exakt": 1,
             "differenz": 0,
             "tendenz": 4,
-            "platz": 19
+            "platz": 18
+        },
+        {
+            "name": "Koder Farij",
+            "punkte": 12,
+            "exakt": 1,
+            "differenz": 0,
+            "tendenz": 4,
+            "platz": 18
         },
         {
             "name": "Tim König",
@@ -264,13 +264,13 @@
     ],
     "form_tabelle_letzte_7": [
         {
-            "name": "Sven Weiland",
-            "punkte": 12,
+            "name": "Clemens Kukula",
+            "punkte": 13,
             "platz": 1
         },
         {
-            "name": "Clemens Kukula",
-            "punkte": 11,
+            "name": "Sven Weiland",
+            "punkte": 12,
             "platz": 2
         },
         {
@@ -284,27 +284,27 @@
             "platz": 4
         },
         {
-            "name": "Caylin Daubner",
+            "name": "Eduardo Barbosa",
             "punkte": 8,
             "platz": 5
         },
         {
-            "name": "Koder Farij",
-            "punkte": 7,
+            "name": "Caylin Daubner",
+            "punkte": 8,
             "platz": 6
+        },
+        {
+            "name": "Billie Resch",
+            "punkte": 8,
+            "platz": 7
         },
         {
             "name": "Deborah Berker",
             "punkte": 7,
-            "platz": 7
-        },
-        {
-            "name": "Eduardo Barbosa",
-            "punkte": 6,
             "platz": 8
         },
         {
-            "name": "Billie Resch",
+            "name": "Eiko Sender",
             "punkte": 6,
             "platz": 9
         },
@@ -329,34 +329,34 @@
             "platz": 12
         },
         {
-            "name": "Eiko Sender",
+            "name": "Maxim Isaac",
             "punkte": 4,
             "platz": 14
         },
         {
-            "name": "Maxim Isaac",
+            "name": "Johanna Stroman",
             "punkte": 4,
             "platz": 15
         },
         {
-            "name": "Johanna Stroman",
+            "name": "Mika Lorenz",
             "punkte": 4,
             "platz": 16
         },
         {
-            "name": "Mika Lorenz",
-            "punkte": 4,
-            "platz": 17
-        },
-        {
             "name": "Adriana Zekaj",
             "punkte": 4,
-            "platz": 17
+            "platz": 16
         },
         {
             "name": "Gabriela Susur",
             "punkte": 4,
-            "platz": 17
+            "platz": 16
+        },
+        {
+            "name": "Koder Farij",
+            "punkte": 4,
+            "platz": 16
         },
         {
             "name": "Tim König",
@@ -558,11 +558,11 @@
         {
             "spiel": "Belgien vs. Ägypten",
             "phase": "Gruppe",
-            "beendet": true,
-            "ergebnis": "0:1",
-            "haeufigster_tipp": "2:1",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
             "anzahl_4": 0,
-            "anzahl_3": 1,
+            "anzahl_3": 0,
             "anzahl_2": 0
         },
         {
@@ -1226,7 +1226,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Ägypten vs. Irak",
+            "spiel": "Belgien vs. Irak",
             "phase": "K.o.",
             "beendet": false,
             "ergebnis": "-:-",
@@ -1256,7 +1256,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Kanada vs. Neuseeland",
+            "spiel": "Kanada vs. Iran",
             "phase": "K.o.",
             "beendet": false,
             "ergebnis": "-:-",
@@ -1286,7 +1286,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Australien vs. Iran",
+            "spiel": "Australien vs. Ägypten",
             "phase": "K.o.",
             "beendet": false,
             "ergebnis": "-:-",
