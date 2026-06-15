@@ -1,7 +1,7 @@
 {
     "letztes_spiel": {
-        "spiel": "Spanien vs. Kap Verde",
-        "ergebnis": "0:0"
+        "spiel": "Belgien vs. Ägypten",
+        "ergebnis": "1:1"
     },
     "spektakel": {
         "spiel": "Niederlande vs. Japan",
@@ -62,19 +62,19 @@
             "platz": 5
         },
         {
+            "name": "Caylin Daubner",
+            "punkte": 18,
+            "exakt": 1,
+            "differenz": 0,
+            "tendenz": 7,
+            "platz": 6
+        },
+        {
             "name": "Sophia Hermann",
             "punkte": 16,
             "exakt": 2,
             "differenz": 0,
             "tendenz": 4,
-            "platz": 6
-        },
-        {
-            "name": "Caylin Daubner",
-            "punkte": 16,
-            "exakt": 1,
-            "differenz": 0,
-            "tendenz": 6,
             "platz": 7
         },
         {
@@ -191,11 +191,11 @@
         },
         {
             "name": "Tim König",
-            "punkte": 10,
+            "punkte": 12,
             "exakt": 1,
             "differenz": 0,
-            "tendenz": 3,
-            "platz": 22
+            "tendenz": 4,
+            "platz": 18
         },
         {
             "name": "Luis Pfeiffer",
@@ -264,52 +264,52 @@
     ],
     "form_tabelle_letzte_7": [
         {
-            "name": "Clemens Kukula",
-            "punkte": 13,
+            "name": "Sven Weiland",
+            "punkte": 12,
             "platz": 1
         },
         {
-            "name": "Sven Weiland",
-            "punkte": 12,
+            "name": "Clemens Kukula",
+            "punkte": 11,
             "platz": 2
+        },
+        {
+            "name": "Caylin Daubner",
+            "punkte": 10,
+            "platz": 3
         },
         {
             "name": "Jonas Drtil",
             "punkte": 8,
-            "platz": 3
+            "platz": 4
         },
         {
             "name": "Johann Straub",
             "punkte": 8,
-            "platz": 4
-        },
-        {
-            "name": "Eduardo Barbosa",
-            "punkte": 8,
             "platz": 5
-        },
-        {
-            "name": "Caylin Daubner",
-            "punkte": 8,
-            "platz": 6
-        },
-        {
-            "name": "Billie Resch",
-            "punkte": 8,
-            "platz": 7
         },
         {
             "name": "Deborah Berker",
             "punkte": 7,
+            "platz": 6
+        },
+        {
+            "name": "Eduardo Barbosa",
+            "punkte": 6,
+            "platz": 7
+        },
+        {
+            "name": "Billie Resch",
+            "punkte": 6,
             "platz": 8
         },
         {
-            "name": "Eiko Sender",
+            "name": "Alex Schindler",
             "punkte": 6,
             "platz": 9
         },
         {
-            "name": "Alex Schindler",
+            "name": "Tim König",
             "punkte": 6,
             "platz": 10
         },
@@ -329,39 +329,39 @@
             "platz": 12
         },
         {
-            "name": "Maxim Isaac",
+            "name": "Eiko Sender",
             "punkte": 4,
             "platz": 14
         },
         {
-            "name": "Johanna Stroman",
+            "name": "Maxim Isaac",
             "punkte": 4,
             "platz": 15
         },
         {
-            "name": "Mika Lorenz",
+            "name": "Johanna Stroman",
             "punkte": 4,
             "platz": 16
+        },
+        {
+            "name": "Mika Lorenz",
+            "punkte": 4,
+            "platz": 17
         },
         {
             "name": "Adriana Zekaj",
             "punkte": 4,
-            "platz": 16
+            "platz": 17
         },
         {
             "name": "Gabriela Susur",
             "punkte": 4,
-            "platz": 16
+            "platz": 17
         },
         {
             "name": "Koder Farij",
             "punkte": 4,
-            "platz": 16
-        },
-        {
-            "name": "Tim König",
-            "punkte": 4,
-            "platz": 20
+            "platz": 17
         },
         {
             "name": "Luis Pfeiffer",
@@ -558,12 +558,12 @@
         {
             "spiel": "Belgien vs. Ägypten",
             "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
+            "beendet": true,
+            "ergebnis": "1:1",
+            "haeufigster_tipp": "2:1",
             "anzahl_4": 0,
             "anzahl_3": 0,
-            "anzahl_2": 0
+            "anzahl_2": 2
         },
         {
             "spiel": "Iran vs. Neuseeland",
