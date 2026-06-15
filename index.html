@@ -37,6 +37,8 @@
         
         .table-gesamt { min-width: 460px; }
         .table-form { min-width: 100%; }
+        .table-spiele { min-width: 520px; }
+        .table-spiele td { padding: 8px 6px; font-size: 0.88rem; }
         
         .rank-1 { background: rgba(251, 191, 36, 0.08); }
         .rank-2 { background: rgba(241, 245, 249, 0.04); }
@@ -125,9 +127,29 @@
     </div>
 
     <div class="section-card">
+        <h2>📅 Alle Spiele &amp; Detail-Statistiken</h2>
+        <div class="table-wrapper">
+            <table class="table-spiele">
+                <thead>
+                    <tr>
+                        <th>Spiel</th>
+                        <th style="text-align: center; width: 75px;">Ergebnis</th>
+                        <th style="text-align: center; width: 85px;">Top-Tipp</th>
+                        <th style="text-align: center; width: 40px; color: #38bdf8;">4er</th>
+                        <th style="text-align: center; width: 40px; color: #34d399;">3er</th>
+                        <th style="text-align: center; width: 40px; color: #fbbf24;">2er</th>
+                    </tr>
+                </thead>
+                <tbody id="spiele-body">
+                    <tr><td colspan="6" class="loading">Lade Spielplan und Statistiken...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="section-card">
         <h2>🎯 Turnier-Highlights</h2>
         
-        <!-- Die Kachel für den Solo-Experten -->
         <div class="highlight-box blue">
             <div class="highlight-title">👤 Solo-Experte</div>
             <div class="highlight-value" id="solo-game">Noch kein Solo-Experte</div>
@@ -163,7 +185,7 @@
     </div>
 
     <div class="section-card">
-        <h2>📋 Regeln & Tippabgabe</h2>
+        <h2>📋 Regeln &amp; Tippabgabe</h2>
         
         <h3>Die Punkteregelung:</h3>
         <ul class="info-list">
@@ -199,7 +221,7 @@
             const response = await fetch('./rangliste.json?v=' + new Date().getTime());
             const daten = await response.json();
             
-            // Highlights auslesen (Ausfallsichere Prüfung)
+            // Solo-Experte auslesen
             if (daten.solo_experte && daten.solo_experte.spiel && daten.solo_experte.spiel !== "Noch kein Solo-Experte") {
                 document.getElementById('solo-game').innerText = `${daten.solo_experte.spiel} (${daten.solo_experte.tipp})`;
                 document.getElementById('solo-user').innerText = `Getippt von: ${daten.solo_experte.experten}`;
@@ -223,7 +245,7 @@
                 document.getElementById('last-match-text').innerText = "Noch kein Spiel gewertet";
             }
 
-            // Gesamttabelle
+            // Gesamttabelle befüllen
             const gesamtBody = document.getElementById('gesamt-body');
             gesamtBody.innerHTML = '';
             daten.gesamt_tabelle.forEach(s => {
@@ -240,7 +262,7 @@
                 `;
             });
 
-            // Formtabelle
+            // Formtabelle befüllen
             const formBody = document.getElementById('form-body');
             formBody.innerHTML = '';
             daten.form_tabelle_letzte_7.slice(0, 7).forEach(s => {
@@ -254,9 +276,45 @@
                 `;
             });
 
+            // NEU: Spiele-Matrix dynamisch befüllen (mit Ausblende-Logik)
+            const spieleBody = document.getElementById('spiele-body');
+            if (daten.alle_spiele_stats && daten.alle_spiele_stats.length > 0) {
+                spieleBody.innerHTML = '';
+                daten.alle_spiele_stats.forEach(s => {
+                    let ergebnisHtml, topTippHtml, p4Html, p3Html, p2Html;
+
+                    if (s.beendet) {
+                        ergebnisHtml = `<span class="badge" style="background: #334155; color: #fff; padding: 4px 8px;">${s.ergebnis}</span>`;
+                        topTippHtml = `<strong>${s.haeufigster_tipp}</strong>`;
+                        p4Html = `<span class="badge" style="color:#38bdf8; background: rgba(56,189,248,0.08);">${s.anzahl_4}</span>`;
+                        p3Html = `<span class="badge" style="color:#34d399; background: rgba(52,211,153,0.08);">${s.anzahl_3}</span>`;
+                        p2Html = `<span class="badge" style="color:#fbbf24; background: rgba(251,191,36,0.08);">${s.anzahl_2}</span>`;
+                    } else {
+                        ergebnisHtml = `<span style="color: var(--text-muted); font-size: 0.8rem;">⏳</span>`;
+                        topTippHtml = `<span style="color: var(--text-muted); font-size: 0.8rem;">-</span>`;
+                        p4Html = `<span style="color: var(--text-muted); font-size: 0.8rem;">-</span>`;
+                        p3Html = `<span style="color: var(--text-muted); font-size: 0.8rem;">-</span>`;
+                        p2Html = `<span style="color: var(--text-muted); font-size: 0.8rem;">-</span>`;
+                    }
+
+                    spieleBody.innerHTML += `
+                        <tr>
+                            <td><span style="font-weight: 500;">${s.spiel}</span></td>
+                            <td style="text-align: center;">${ergebnisHtml}</td>
+                            <td style="text-align: center;">${topTippHtml}</td>
+                            <td style="text-align: center;">${p4Html}</td>
+                            <td style="text-align: center;">${p3Html}</td>
+                            <td style="text-align: center;">${p2Html}</td>
+                        </tr>
+                    `;
+                });
+            } else {
+                spieleBody.innerHTML = '<tr><td colspan="6" style="text-align:center; color:var(--text-muted);">Keine Spieldaten verfügbar.</td></tr>';
+            }
+
         } catch (error) {
-            console.error("Fehler:", error);
-            document.getElementById('gesamt-body').innerHTML = '<tr><td colspan="6" style="color:#ef4444; text-align:center; padding:20px;">Daten konnten nicht geladen werden. Was abgespeichert?</td></tr>';
+            console.error("Fehler beim Laden:", error);
+            document.getElementById('gesamt-body').innerHTML = '<tr><td colspan="6" style="color:#ef4444; text-align:center; padding:20px;">Daten konnten nicht geladen werden. Wurde auswertung.py ausgeführt?</td></tr>';
         }
     }
 
