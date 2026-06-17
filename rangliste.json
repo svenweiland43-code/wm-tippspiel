@@ -1,7 +1,7 @@
 {
     "letztes_spiel": {
-        "spiel": "Österreich vs. Jordanien",
-        "ergebnis": "3:1"
+        "spiel": "Portugal vs. DRK",
+        "ergebnis": "1:1"
     },
     "spektakel": {
         "spiel": "Irak vs. Norwegen",
@@ -274,98 +274,98 @@
             "platz": 2
         },
         {
-            "name": "Tim Bredlau",
+            "name": "Mika Lorenz",
             "punkte": 13,
             "platz": 3
         },
         {
-            "name": "Mika Lorenz",
+            "name": "Tim König",
             "punkte": 13,
             "platz": 4
         },
         {
-            "name": "Tim König",
+            "name": "Connor Lüning",
             "punkte": 13,
             "platz": 5
         },
         {
-            "name": "Connor Lüning",
-            "punkte": 13,
-            "platz": 6
-        },
-        {
-            "name": "Clemens Kukula",
-            "punkte": 12,
-            "platz": 7
-        },
-        {
             "name": "Koder Farij",
             "punkte": 12,
-            "platz": 8
+            "platz": 6
         },
         {
             "name": "Hargun Weitz",
             "punkte": 12,
-            "platz": 9
+            "platz": 7
         },
         {
             "name": "Roy Chi",
             "punkte": 12,
-            "platz": 10
+            "platz": 8
         },
         {
             "name": "Jonas Drtil",
             "punkte": 11,
-            "platz": 11
+            "platz": 9
         },
         {
             "name": "Maxim Isaac",
             "punkte": 11,
-            "platz": 12
+            "platz": 10
         },
         {
             "name": "Billie Resch",
             "punkte": 11,
-            "platz": 13
+            "platz": 11
         },
         {
             "name": "Deborah Berker",
             "punkte": 11,
-            "platz": 14
+            "platz": 12
         },
         {
             "name": "Johanna Stroman",
             "punkte": 11,
-            "platz": 15
+            "platz": 13
         },
         {
             "name": "Sophia Varga",
             "punkte": 11,
-            "platz": 16
+            "platz": 14
         },
         {
             "name": "Max Zapletal",
             "punkte": 11,
-            "platz": 17
+            "platz": 15
+        },
+        {
+            "name": "Clemens Kukula",
+            "punkte": 10,
+            "platz": 16
         },
         {
             "name": "Sophia Hermann",
             "punkte": 10,
-            "platz": 18
+            "platz": 17
         },
         {
             "name": "Caylin Daubner",
             "punkte": 10,
-            "platz": 19
+            "platz": 18
         },
         {
             "name": "Eiko Sender",
             "punkte": 10,
-            "platz": 20
+            "platz": 19
         },
         {
             "name": "Gabriela Susur",
             "punkte": 10,
+            "platz": 20
+        },
+        {
+            "name": "Tim Bredlau",
+            "punkte": 9,
             "platz": 21
         },
         {
@@ -638,9 +638,9 @@
         {
             "spiel": "Portugal vs. DRK",
             "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
+            "beendet": true,
+            "ergebnis": "1:1",
+            "haeufigster_tipp": "3:0",
             "anzahl_4": 0,
             "anzahl_3": 0,
             "anzahl_2": 0
