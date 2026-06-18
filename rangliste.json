@@ -626,21 +626,21 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Ghana vs. Panama",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
             "spiel": "Portugal vs. DRK",
             "phase": "Gruppe",
             "beendet": true,
             "ergebnis": "1:1",
             "haeufigster_tipp": "3:0",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
+            "spiel": "Ghana vs. Panama",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
             "anzahl_4": 0,
             "anzahl_3": 0,
             "anzahl_2": 0
@@ -696,7 +696,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "Brasilien vs. Haiti",
+            "spiel": "USA vs. Australien",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -716,6 +716,16 @@
             "anzahl_2": 0
         },
         {
+            "spiel": "Brasilien vs. Haiti",
+            "phase": "Gruppe",
+            "beendet": false,
+            "ergebnis": "-:-",
+            "haeufigster_tipp": "-:-",
+            "anzahl_4": 0,
+            "anzahl_3": 0,
+            "anzahl_2": 0
+        },
+        {
             "spiel": "Türkei vs. Paraguay",
             "phase": "Gruppe",
             "beendet": false,
@@ -726,7 +736,7 @@
             "anzahl_2": 0
         },
         {
-            "spiel": "USA vs. Australien",
+            "spiel": "Niederlande vs. Schweden",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
@@ -747,16 +757,6 @@
         },
         {
             "spiel": "Ecuador vs. Curacao",
-            "phase": "Gruppe",
-            "beendet": false,
-            "ergebnis": "-:-",
-            "haeufigster_tipp": "-:-",
-            "anzahl_4": 0,
-            "anzahl_3": 0,
-            "anzahl_2": 0
-        },
-        {
-            "spiel": "Niederlande vs. Schweden",
             "phase": "Gruppe",
             "beendet": false,
             "ergebnis": "-:-",
